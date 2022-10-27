@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "TPS2115")(type "KiCad")(uri "${KIPRJMOD}/components/TPS2115.pretty/")(options "")(descr ""))
-)
