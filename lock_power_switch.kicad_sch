@@ -1751,7 +1751,7 @@
     (property "Value" "TPS2115PW" (id 1) (at 143.51 78.74 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "PW8" (id 2) (at 143.51 80.264 0)
+    (property "Footprint" "TPS2115:TPS2115" (id 2) (at 143.51 80.264 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 115.57 86.36 0)
@@ -1776,7 +1776,7 @@
     (property "Value" "Q_PMOS_GDS" (id 1) (at 207.01 96.5199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" (id 2) (at 205.74 92.71 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 205.74 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 200.66 95.25 0)
@@ -1932,7 +1932,7 @@
       (reference "J2") (unit 1) (value "Lock_Conn") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal")
     )
     (path "/eb460c1a-a03d-42e5-b15d-8699281f1231"
-      (reference "Q1") (unit 1) (value "Q_PMOS_GDS") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
+      (reference "Q1") (unit 1) (value "Q_PMOS_GDS") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/bfccf7d5-63b8-44f5-81fe-bad6ed70264a"
       (reference "R1") (unit 1) (value "50K") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -1950,7 +1950,7 @@
       (reference "U1") (unit 1) (value "LP38693MP-5.0") (footprint "Package_TO_SOT_SMD:SOT-223-5")
     )
     (path "/e216c31b-d197-47a3-90e9-360c1b595f6f"
-      (reference "U2") (unit 1) (value "TPS2115PW") (footprint "PW8")
+      (reference "U2") (unit 1) (value "TPS2115PW") (footprint "TPS2115:TPS2115")
     )
   )
 )
