@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -527,6 +527,78 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="LP38693MP-ADJ_NOPB">
+<packages>
+<package name="VREG_LP38693MP-ADJ/NOPB">
+<wire x1="-3.25" y1="1.78" x2="3.25" y2="1.78" width="0.127" layer="51"/>
+<wire x1="3.25" y1="1.78" x2="3.25" y2="-1.78" width="0.127" layer="51"/>
+<wire x1="3.25" y1="-1.78" x2="-3.25" y2="-1.78" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="-1.78" x2="-3.25" y2="1.78" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="1.78" x2="3.25" y2="1.78" width="0.127" layer="21"/>
+<wire x1="3.25" y1="1.78" x2="3.25" y2="-1.78" width="0.127" layer="21"/>
+<wire x1="3.25" y1="-1.78" x2="-3.25" y2="-1.78" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="-1.78" x2="-3.25" y2="1.78" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="4.15" x2="-3.5" y2="-4.15" width="0.05" layer="39"/>
+<wire x1="-3.5" y1="-4.15" x2="3.5" y2="-4.15" width="0.05" layer="39"/>
+<wire x1="3.5" y1="-4.15" x2="3.5" y2="4.15" width="0.05" layer="39"/>
+<wire x1="3.5" y1="4.15" x2="-3.5" y2="4.15" width="0.05" layer="39"/>
+<circle x="-3.95" y="-3.1" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.95" y="-3.1" radius="0.1" width="0.2" layer="51"/>
+<text x="-3.5" y="4.45" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.5" y="-4.55" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-2.25" y="-3.15" dx="1" dy="1.5" layer="1"/>
+<smd name="2" x="-0.75" y="-3.15" dx="1" dy="1.5" layer="1"/>
+<smd name="3" x="0.75" y="-3.15" dx="1" dy="1.5" layer="1"/>
+<smd name="4" x="2.25" y="-3.15" dx="1" dy="1.5" layer="1"/>
+<smd name="5" x="0" y="3.15" dx="3.3" dy="1.5" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LP38693MP-ADJ/NOPB">
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<text x="-12.7" y="12.7" size="2.54" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-12.7" y="-12.7" size="2.54" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="IN" x="-17.78" y="2.54" length="middle" direction="in"/>
+<pin name="EN" x="-17.78" y="7.62" length="middle" direction="in"/>
+<pin name="GND" x="17.78" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUT" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="ADJ" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LP38693MP-ADJ/NOPB" prefix="VR">
+<description> &lt;a href="https://pricing.snapeda.com/parts/LP38693MP-ADJ/NOPB/Texas%20Instruments/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="LP38693MP-ADJ/NOPB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VREG_LP38693MP-ADJ/NOPB">
+<connects>
+<connect gate="A" pin="ADJ" pad="2"/>
+<connect gate="A" pin="EN" pad="1"/>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="IN" pad="4"/>
+<connect gate="A" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 500-mA, 10-V, adjustable low-dropout voltage regulator with enable "/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MP" value="LP38693MP-ADJ/NOPB"/>
+<attribute name="PACKAGE" value="SOT-223-5 Texas Instruments"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LP38693MP-ADJ/NOPB/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -538,6 +610,7 @@
 </classes>
 <parts>
 <part name="U1" library="CustomParts" deviceset="TPS2115PW" device=""/>
+<part name="VR1" library="LP38693MP-ADJ_NOPB" deviceset="LP38693MP-ADJ/NOPB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -547,6 +620,10 @@
 <instance part="U1" gate="A" x="50.8" y="55.88" smashed="yes">
 <attribute name="NAME" x="74.0156" y="64.9986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="73.3806" y="62.4586" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+</instance>
+<instance part="VR1" gate="A" x="78.74" y="91.44" smashed="yes">
+<attribute name="NAME" x="66.04" y="104.14" size="2.54" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="66.04" y="78.74" size="2.54" layer="96" ratio="10" rot="SR0"/>
 </instance>
 </instances>
 <busses>
