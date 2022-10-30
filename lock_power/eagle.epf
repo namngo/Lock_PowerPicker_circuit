@@ -23,6 +23,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:401"
 UsedLibraryUrn="urn:adsk.eagle:library:402"
 UsedLibraryUrn="urn:adsk.eagle:library:408"
 UsedLibraryUrn="urn:adsk.eagle:library:409"
+UsedLibraryUrn="urn:adsk.eagle:library:514"
 UsedLibraryUrn="urn:adsk.eagle:library:86"
 UsedLibraryUrn="urn:adsk.eagle:library:87"
 UsedLibraryUrn="urn:adsk.eagle:library:529"
@@ -33,12 +34,13 @@ UsedLibraryUrn="urn:adsk.eagle:library:348"
 UsedLibraryUrn="urn:adsk.eagle:library:108"
 UsedLibraryUrn="urn:adsk.eagle:library:420"
 UsedLibraryUrn="urn:adsk.eagle:library:14283568"
-UsedLibrary="/Users/namngo/hobby/EagleCustomParts/LP38693MP-ADJ_NOPB.lbr"
+UsedLibrary="/Users/namngo/Documents/hobby/EagleCustomParts/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="/Users/namngo/Documents/hobby/EagleCustomParts/LP38693MP-ADJ_NOPB.lbr"
 
 [Win_1]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1792 1120"
+Screen="6368 1890"
 Window="Win_1"
