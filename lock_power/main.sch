@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -8545,250 +8545,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
-<description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
-This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SOT23-3" urn="urn:adsk.eagle:footprint:38398/1" library_version="1">
-<description>SOT23-3</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
-<package name="TO220V" urn="urn:adsk.eagle:footprint:38410/1" library_version="1">
-<description>&lt;b&gt;TO 220 Vertical&lt;/b&gt; Package works with various parts including N-Channel MOSFET SparkFun SKU: COM-10213</description>
-<wire x1="-5.08" y1="2.032" x2="-5.08" y2="-0.381" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="2.032" x2="5.08" y2="-0.381" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="2.032" x2="-5.08" y2="2.032" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="2.032" x2="-5.08" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="3.048" x2="5.08" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="3.048" x2="5.08" y2="2.032" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="-0.381" x2="-4.191" y2="-1.27" width="0.2032" layer="21" curve="92.798868"/>
-<wire x1="4.191" y1="-1.27" x2="5.08" y2="-0.381" width="0.2032" layer="21" curve="92.798868"/>
-<wire x1="-4.191" y1="-1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="4.191" y1="-1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
-<rectangle x1="-5.08" y1="2.032" x2="5.08" y2="3.048" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.334" y="0.254" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="5.334" y="0.254" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SO08" urn="urn:adsk.eagle:footprint:38406/1" library_version="1">
-<description>SOIC, 0.15 inch width</description>
-<wire x1="2.3368" y1="1.9463" x2="-2.3368" y2="1.9463" width="0.2032" layer="21"/>
-<wire x1="2.4368" y1="-1.9463" x2="2.7178" y2="-1.5653" width="0.2032" layer="21" curve="90"/>
-<wire x1="-2.7178" y1="1.4653" x2="-2.3368" y2="1.9463" width="0.2032" layer="21" curve="-90.023829"/>
-<wire x1="2.3368" y1="1.9463" x2="2.7178" y2="1.5653" width="0.2032" layer="21" curve="-90.030084"/>
-<wire x1="-2.7178" y1="-1.6653" x2="-2.3368" y2="-1.9463" width="0.2032" layer="21" curve="90.060185"/>
-<wire x1="-2.3368" y1="-1.9463" x2="2.4368" y2="-1.9463" width="0.2032" layer="21"/>
-<wire x1="2.7178" y1="-1.5653" x2="2.7178" y2="1.5653" width="0.2032" layer="21"/>
-<wire x1="-2.667" y1="0.6096" x2="-2.667" y2="-0.6604" width="0.2032" layer="21" curve="-180"/>
-<wire x1="-2.7178" y1="1.4526" x2="-2.7178" y2="0.6096" width="0.2032" layer="21"/>
-<wire x1="-2.7178" y1="-1.6653" x2="-2.7178" y2="-0.6604" width="0.2032" layer="21"/>
-<rectangle x1="-2.159" y1="-3.302" x2="-1.651" y2="-2.2733" layer="51"/>
-<rectangle x1="-0.889" y1="-3.302" x2="-0.381" y2="-2.2733" layer="51"/>
-<rectangle x1="0.381" y1="-3.302" x2="0.889" y2="-2.2733" layer="51"/>
-<rectangle x1="1.651" y1="-3.302" x2="2.159" y2="-2.2733" layer="51"/>
-<rectangle x1="-0.889" y1="2.286" x2="-0.381" y2="3.302" layer="51"/>
-<rectangle x1="0.381" y1="2.286" x2="0.889" y2="3.302" layer="51"/>
-<rectangle x1="1.651" y1="2.286" x2="2.159" y2="3.302" layer="51"/>
-<rectangle x1="-2.159" y1="2.286" x2="-1.651" y2="3.302" layer="51"/>
-<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="5" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="6" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<text x="-3.175" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.002540625" layer="21">
-<vertex x="-2.69875" y="-2.38125" curve="90"/>
-<vertex x="-3.01625" y="-2.06375" curve="90"/>
-<vertex x="-3.33375" y="-2.38125" curve="90"/>
-<vertex x="-3.01625" y="-2.69875" curve="90"/>
-</polygon>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT23-3" urn="urn:adsk.eagle:package:38446/1" type="box" library_version="1">
-<description>SOT23-3</description>
-<packageinstances>
-<packageinstance name="SOT23-3"/>
-</packageinstances>
-</package3d>
-<package3d name="TO220V" urn="urn:adsk.eagle:package:38447/1" type="box" library_version="1">
-<description>TO 220 Vertical Package works with various parts including N-Channel MOSFET SparkFun SKU: COM-10213</description>
-<packageinstances>
-<packageinstance name="TO220V"/>
-</packageinstances>
-</package3d>
-<package3d name="SO08" urn="urn:adsk.eagle:package:38445/1" type="box" library_version="1">
-<description>SOIC, 0.15 inch width</description>
-<packageinstances>
-<packageinstance name="SO08"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="LABELED-PMOS" urn="urn:adsk.eagle:symbol:38409/1" library_version="1">
-<description>&lt;h3&gt;P-channel MOSFET&lt;/h3&gt;
-Switches electrical signals</description>
-<text x="5.08" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="5.08" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short"/>
-<pin name="S" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
-<pin name="D" x="2.54" y="5.08" visible="off" length="short" rot="R270"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="0.6858" x2="-1.9812" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="0" x2="-1.9812" y2="-0.8382" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="-1.2954" x2="-1.9812" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="-1.905" x2="-1.9812" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="2.54" x2="-1.9812" y2="1.8034" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="1.8034" x2="-1.9812" y2="1.0922" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="1.8034" x2="2.54" y2="1.8034" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.8034" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-0.762" x2="1.6002" y2="-0.9398" width="0.1524" layer="94"/>
-<wire x1="3.4798" y1="-0.5842" x2="3.302" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="-1.9812" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="-0.7874" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="1.8034" x2="2.54" y2="0.5842" width="0.1524" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="3.302" y="0.508"/>
-<vertex x="2.54" y="-0.762"/>
-<vertex x="1.778" y="0.508"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-0.1778" y="0"/>
-<vertex x="-0.9398" y="-0.254"/>
-<vertex x="-0.9398" y="0.254"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MOSFET_PCH" urn="urn:adsk.eagle:component:38475/1" prefix="Q" library_version="1">
-<description>&lt;h3&gt;P-channel MOSFETs&lt;/h3&gt;
-&lt;p&gt;Voltage controlled devices that allow control of high current outputs.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13907”&gt;SparkFun ESP32 Thing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13231”&gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="LABELED-PMOS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-IRLML2244" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38446/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-11153"/>
-<attribute name="VALUE" value="4.3A/20V/54mΩ"/>
-</technology>
-</technologies>
-</device>
-<device name="-SI2309DS" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38446/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-08285"/>
-<attribute name="VALUE" value="1.1A/60V/600mΩ"/>
-</technology>
-</technologies>
-</device>
-<device name="-DMG2307L" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38446/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-11308"/>
-<attribute name="VALUE" value="2.5A/30V/105mΩ"/>
-</technology>
-</technologies>
-</device>
-<device name="-NDP6020P" package="TO220V">
-<connects>
-<connect gate="G$1" pin="D" pad="2"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38447/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-13060"/>
-<attribute name="VALUE" value="24A/20V/50mΩ"/>
-</technology>
-</technologies>
-</device>
-<device name="-NDS8434" package="SO08">
-<connects>
-<connect gate="G$1" pin="D" pad="5 6 7 8"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="1 2 3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38445/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-08355"/>
-<attribute name="VALUE" value="6.5A/20V/35mΩ"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="led" urn="urn:adsk.eagle:library:259">
 <description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
@@ -11010,6 +10766,104 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="transistor-power" urn="urn:adsk.eagle:library:400">
+<description>&lt;b&gt;Power Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SUPER-SOT3" urn="urn:adsk.eagle:footprint:29425/1" library_version="4">
+<description>&lt;b&gt;MOLDED PACKAGE SUPERSOT, 3 LEAD&lt;/b&gt; MKT-MAO3B&lt;p&gt;
+Source: http://www.fairchildsemi.com/dwg/MA/MA03B.pdf</description>
+<wire x1="1.352" y1="0.603" x2="1.352" y2="-0.603" width="0.2032" layer="21"/>
+<wire x1="1.352" y1="-0.603" x2="-1.352" y2="-0.603" width="0.2032" layer="21"/>
+<wire x1="-1.352" y1="-0.603" x2="-1.352" y2="0.603" width="0.2032" layer="21"/>
+<wire x1="-1.352" y1="0.603" x2="1.352" y2="0.603" width="0.2032" layer="21"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.75" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.75" y="-3.25" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.175" y1="-1.25" x2="-0.675" y2="-0.6534" layer="51"/>
+<rectangle x1="0.675" y1="-1.25" x2="1.175" y2="-0.6534" layer="51"/>
+<rectangle x1="-0.25" y1="0.6534" x2="0.225" y2="1.25" layer="51" rot="R180"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SUPER-SOT3" urn="urn:adsk.eagle:package:29529/2" type="model" library_version="4">
+<description>MOLDED PACKAGE SUPERSOT, 3 LEAD MKT-MAO3B
+Source: http://www.fairchildsemi.com/dwg/MA/MA03B.pdf</description>
+<packageinstances>
+<packageinstance name="SUPER-SOT3"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MOSFET_P" urn="urn:adsk.eagle:symbol:29421/1" library_version="4">
+<wire x1="-1.016" y1="-2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.159" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.159" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.159" x2="0.5334" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.159" x2="3.81" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.159" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="-2.159" radius="0.127" width="0.4064" layer="94"/>
+<text x="6.35" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="6.35" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.397" y="-4.318" size="0.8128" layer="93">D</text>
+<text x="1.397" y="3.556" size="0.8128" layer="93">S</text>
+<text x="-2.286" y="1.143" size="0.8128" layer="93">G</text>
+<rectangle x1="-0.254" y1="-2.794" x2="0.508" y2="-1.27" layer="94"/>
+<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.794" layer="94"/>
+<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
+<pin name="G" x="-2.54" y="2.54" visible="off" length="point" direction="pas"/>
+<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0"/>
+<vertex x="1.27" y="0.508"/>
+<vertex x="1.27" y="-0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FDN360P" urn="urn:adsk.eagle:component:29602/3" prefix="Q" library_version="4">
+<description>&lt;b&gt;Single P-Channel, PowerTrench (R) MOSFET&lt;/b&gt;&lt;p&gt;
+Source: http://www.fairchildsemi.com/ds/FD/FDN360P.pdf</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SUPER-SOT3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29529/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11041,7 +10895,6 @@ Source: www.kingbright.com</description>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET_PCH" device="-DMG2307L" package3d_urn="urn:adsk.eagle:package:38446/1" value="SI3407"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="1uf"/>
 <part name="LOCK" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
@@ -11050,6 +10903,7 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+7V" device=""/>
 <part name="LOCK1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="POWER1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="FDN360P" device="" package3d_urn="urn:adsk.eagle:package:29529/2" value="SI3407"/>
 </parts>
 <sheets>
 <sheet>
@@ -11129,10 +10983,6 @@ Source: www.kingbright.com</description>
 <instance part="GND10" gate="1" x="29.21" y="49.53" smashed="yes">
 <attribute name="VALUE" x="26.67" y="46.99" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1" gate="G$1" x="63.5" y="53.34" smashed="yes">
-<attribute name="NAME" x="68.58" y="53.34" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="68.58" y="50.8" size="1.778" layer="96" font="vector"/>
-</instance>
 <instance part="LED1" gate="G$1" x="66.04" y="43.18" smashed="yes">
 <attribute name="NAME" x="69.596" y="38.608" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="71.755" y="38.608" size="1.778" layer="96" rot="R90"/>
@@ -11162,6 +11012,10 @@ Source: www.kingbright.com</description>
 <instance part="POWER1" gate="G$1" x="80.01" y="102.87" smashed="yes">
 <attribute name="NAME" x="73.66" y="108.585" size="1.778" layer="95"/>
 <attribute name="VALUE" x="73.66" y="97.79" size="1.778" layer="96"/>
+</instance>
+<instance part="Q1" gate="G$1" x="63.5" y="52.578" smashed="yes">
+<attribute name="NAME" x="69.85" y="55.118" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.85" y="52.578" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11301,16 +11155,10 @@ Source: www.kingbright.com</description>
 <wire x1="-21.59" y1="62.23" x2="-21.59" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="-21.59" y1="72.39" x2="46.99" y2="72.39" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="46.99" y1="72.39" x2="58.42" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="72.39" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="58.674" y1="55.118" x2="60.96" y2="55.118" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="72.39" x2="58.674" y2="72.39" width="0.1524" layer="91"/>
+<wire x1="58.674" y1="72.39" x2="58.674" y2="55.118" width="0.1524" layer="91"/>
 <junction x="46.99" y="72.39"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="66.04" y1="48.26" x2="66.04" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -11341,19 +11189,19 @@ Source: www.kingbright.com</description>
 </net>
 <net name="VOUT" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="66.04" y1="58.42" x2="66.04" y2="59.69" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="46.99" y1="62.23" x2="46.99" y2="59.69" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="OUT"/>
 <wire x1="46.99" y1="59.69" x2="46.99" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="29.21" y1="59.69" x2="46.99" y2="59.69" width="0.1524" layer="91"/>
 <junction x="46.99" y="59.69"/>
-<wire x1="46.99" y1="59.69" x2="66.04" y2="59.69" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="59.69" x2="72.39" y2="59.69" width="0.1524" layer="91"/>
-<junction x="66.04" y="59.69"/>
 <label x="72.39" y="59.69" size="1.778" layer="95" xref="yes"/>
+<wire x1="46.99" y1="59.69" x2="66.04" y2="59.69" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="66.04" y1="59.69" x2="72.39" y2="59.69" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="57.658" x2="66.04" y2="59.69" width="0.1524" layer="91"/>
+<junction x="66.04" y="59.69"/>
 </segment>
 <segment>
 <pinref part="LOCK" gate="A" pin="2"/>
@@ -11362,6 +11210,13 @@ Source: www.kingbright.com</description>
 <pinref part="LOCK1" gate="A" pin="2"/>
 <wire x1="77.47" y1="120.65" x2="67.31" y2="120.65" width="0.1524" layer="91"/>
 <junction x="67.31" y="120.65"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="66.04" y1="47.498" x2="66.04" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
