@@ -16884,6 +16884,23 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <smd name="13" x="2.48" y="2.54" dx="1.95" dy="0.59" layer="1" roundness="50"/>
 <smd name="14" x="2.48" y="3.81" dx="1.95" dy="0.59" layer="1" roundness="50"/>
 </package>
+<package name="SOT143" urn="urn:adsk.eagle:footprint:26302/1">
+<description>&lt;b&gt;SOT-143&lt;/b&gt;</description>
+<wire x1="-1.448" y1="0.635" x2="1.448" y2="0.635" width="0.1" layer="51"/>
+<wire x1="-1.448" y1="-0.635" x2="1.448" y2="-0.635" width="0.1" layer="51"/>
+<wire x1="-1.448" y1="-0.635" x2="-1.448" y2="0.635" width="0.1" layer="51"/>
+<wire x1="1.448" y1="-0.635" x2="1.448" y2="0.635" width="0.1" layer="51"/>
+<smd name="4" x="-0.95" y="1.1" dx="1" dy="1.44" layer="1"/>
+<smd name="3" x="0.95" y="1.1" dx="1" dy="1.44" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.44" layer="1"/>
+<smd name="1" x="-0.75" y="-1.1" dx="1.2" dy="1.44" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.7366" y1="-1.3208" x2="1.1938" y2="-0.635" layer="51"/>
+<rectangle x1="0.7112" y1="0.635" x2="1.1684" y2="1.3208" layer="51"/>
+<rectangle x1="-1.143" y1="0.635" x2="-0.6858" y2="1.3208" layer="51"/>
+<rectangle x1="-1.1938" y1="-1.3208" x2="-0.3048" y2="-0.635" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ATTINY1614-SSNR">
@@ -16907,6 +16924,18 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pin name="PB2/OSC2" x="-22.86" y="-12.7" length="middle"/>
 <pin name="PB3/OSC1" x="-22.86" y="-10.16" length="middle"/>
 <pin name="GND" x="22.86" y="12.7" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="MIC5018YM4">
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<pin name="VS" x="-15.24" y="2.54" length="middle" direction="pwr"/>
+<pin name="G" x="-15.24" y="-2.54" length="middle" direction="out"/>
+<pin name="GND" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="CTL" x="15.24" y="-2.54" length="middle" direction="in" rot="R180"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -16943,6 +16972,24 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="PRICE" value="None"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ATTINY1614-SSNR/?ref=eda"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC5018">
+<gates>
+<gate name="G$1" symbol="MIC5018YM4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT143">
+<connects>
+<connect gate="G$1" pin="CTL" pad="4"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -22124,6 +22171,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="WALL_EN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$3" library="CustomParts" deviceset="MIC5018" device=""/>
+<part name="U$4" library="CustomParts" deviceset="MIC5018" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22316,6 +22365,14 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="GND1" gate="1" x="35.56" y="86.36" smashed="yes">
 <attribute name="VALUE" x="33.02" y="83.82" size="1.27" layer="96"/>
+</instance>
+<instance part="U$3" gate="G$1" x="86.36" y="99.06" smashed="yes">
+<attribute name="NAME" x="76.2" y="106.68" size="1.778" layer="95"/>
+<attribute name="VALUE" x="76.2" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="U$4" gate="G$1" x="125.73" y="99.06" smashed="yes">
+<attribute name="NAME" x="115.57" y="106.68" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.57" y="91.44" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
