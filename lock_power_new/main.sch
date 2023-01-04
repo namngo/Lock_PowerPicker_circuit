@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -52,72 +52,72 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -126,494 +126,22 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Infineon - IRF8910PBF">
-<description>Upverter Parts Library
-
-Created by Upverter.com</description>
-<packages>
-<package name="INFINEON_IRF8910PBF_0">
-<description>Mosfet Array 2 N-Channel (Dual) 20V 10A 2W Surface Mount 8-SO</description>
-<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.15" layer="51"/>
-<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.15" layer="51"/>
-<wire x1="2" y1="2.5" x2="2" y2="-2.5" width="0.15" layer="51"/>
-<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.15" layer="51"/>
-<wire x1="-3.33" y1="-2.675" x2="-3.33" y2="2.675" width="0.1" layer="41"/>
-<wire x1="-3.33" y1="2.675" x2="3.33" y2="2.675" width="0.1" layer="41"/>
-<wire x1="3.33" y1="2.675" x2="3.33" y2="-2.675" width="0.1" layer="41"/>
-<wire x1="3.33" y1="-2.675" x2="-3.33" y2="-2.675" width="0.1" layer="41"/>
-<wire x1="-1" y1="2.5" x2="1" y2="2.5" width="0.15" layer="21"/>
-<wire x1="1" y1="-2.5" x2="1" y2="2.5" width="0.15" layer="21"/>
-<wire x1="-1" y1="-2.5" x2="1" y2="-2.5" width="0.15" layer="21"/>
-<wire x1="-1" y1="-2.5" x2="-1" y2="2.5" width="0.15" layer="21"/>
-<text x="-1.925" y="2.75" size="1" layer="25">&gt;NAME</text>
-<circle x="-3.8" y="1.905" radius="0.25" width="0" layer="21"/>
-<smd name="1" x="-2.34" y="1.905" dx="1.78" dy="0.72" layer="1"/>
-<smd name="2" x="-2.34" y="0.635" dx="1.78" dy="0.72" layer="1"/>
-<smd name="3" x="-2.34" y="-0.635" dx="1.78" dy="0.72" layer="1"/>
-<smd name="4" x="-2.34" y="-1.905" dx="1.78" dy="0.72" layer="1"/>
-<smd name="5" x="2.34" y="-1.905" dx="1.78" dy="0.72" layer="1"/>
-<smd name="6" x="2.34" y="-0.635" dx="1.78" dy="0.72" layer="1"/>
-<smd name="7" x="2.34" y="0.635" dx="1.78" dy="0.72" layer="1"/>
-<smd name="8" x="2.34" y="1.905" dx="1.78" dy="0.72" layer="1"/>
-</package>
-<package name="INFINEON_IRF8910PBF_1">
-<description>Mosfet Array 2 N-Channel (Dual) 20V 10A 2W Surface Mount 8-SO</description>
-<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.15" layer="51"/>
-<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.15" layer="51"/>
-<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.15" layer="51"/>
-<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.15" layer="51"/>
-<wire x1="-4.153" y1="-2.95" x2="-4.153" y2="2.95" width="0.1" layer="41"/>
-<wire x1="-4.153" y1="2.95" x2="4.153" y2="2.95" width="0.1" layer="41"/>
-<wire x1="4.153" y1="2.95" x2="4.153" y2="-2.95" width="0.1" layer="41"/>
-<wire x1="4.153" y1="-2.95" x2="-4.153" y2="-2.95" width="0.1" layer="41"/>
-<wire x1="-0.679" y1="-2.45" x2="-0.679" y2="2.45" width="0.15" layer="21"/>
-<wire x1="-0.679" y1="2.45" x2="0.679" y2="2.45" width="0.15" layer="21"/>
-<wire x1="0.679" y1="2.45" x2="0.679" y2="-2.45" width="0.15" layer="21"/>
-<wire x1="0.679" y1="-2.45" x2="-0.679" y2="-2.45" width="0.15" layer="21"/>
-<text x="-1.928" y="2.75" size="1" layer="25">&gt;NAME</text>
-<circle x="-4.203" y="1.905" radius="0.25" width="0" layer="21"/>
-<smd name="1" x="-2.416" y="1.905" dx="2.474" dy="0.623" layer="1"/>
-<smd name="2" x="-2.416" y="0.635" dx="2.474" dy="0.623" layer="1" roundness="100"/>
-<smd name="3" x="-2.416" y="-0.635" dx="2.474" dy="0.623" layer="1" roundness="100"/>
-<smd name="4" x="-2.416" y="-1.905" dx="2.474" dy="0.623" layer="1" roundness="100"/>
-<smd name="5" x="2.416" y="-1.905" dx="2.474" dy="0.623" layer="1" roundness="100"/>
-<smd name="6" x="2.416" y="-0.635" dx="2.474" dy="0.623" layer="1" roundness="100"/>
-<smd name="7" x="2.416" y="0.635" dx="2.474" dy="0.623" layer="1" roundness="100"/>
-<smd name="8" x="2.416" y="1.905" dx="2.474" dy="0.623" layer="1" roundness="100"/>
-</package>
-<package name="INFINEON_IRF8910PBF_2">
-<description>Mosfet Array 2 N-Channel (Dual) 20V 10A 2W Surface Mount 8-SO</description>
-<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.15" layer="51"/>
-<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.15" layer="51"/>
-<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.15" layer="51"/>
-<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.15" layer="51"/>
-<wire x1="-3.703" y1="-2.7" x2="-3.703" y2="2.7" width="0.1" layer="41"/>
-<wire x1="-3.703" y1="2.7" x2="3.703" y2="2.7" width="0.1" layer="41"/>
-<wire x1="3.703" y1="2.7" x2="3.703" y2="-2.7" width="0.1" layer="41"/>
-<wire x1="3.703" y1="-2.7" x2="-3.703" y2="-2.7" width="0.1" layer="41"/>
-<wire x1="-0.779" y1="-2.45" x2="-0.779" y2="2.45" width="0.15" layer="21"/>
-<wire x1="-0.779" y1="2.45" x2="0.779" y2="2.45" width="0.15" layer="21"/>
-<wire x1="0.779" y1="2.45" x2="0.779" y2="-2.45" width="0.15" layer="21"/>
-<wire x1="0.779" y1="-2.45" x2="-0.779" y2="-2.45" width="0.15" layer="21"/>
-<text x="-1.928" y="2.75" size="1" layer="25">&gt;NAME</text>
-<circle x="-4.003" y="1.905" radius="0.25" width="0" layer="21"/>
-<smd name="1" x="-2.366" y="1.905" dx="2.174" dy="0.583" layer="1"/>
-<smd name="2" x="-2.366" y="0.635" dx="2.174" dy="0.583" layer="1" roundness="100"/>
-<smd name="3" x="-2.366" y="-0.635" dx="2.174" dy="0.583" layer="1" roundness="100"/>
-<smd name="4" x="-2.366" y="-1.905" dx="2.174" dy="0.583" layer="1" roundness="100"/>
-<smd name="5" x="2.366" y="-1.905" dx="2.174" dy="0.583" layer="1" roundness="100"/>
-<smd name="6" x="2.366" y="-0.635" dx="2.174" dy="0.583" layer="1" roundness="100"/>
-<smd name="7" x="2.366" y="0.635" dx="2.174" dy="0.583" layer="1" roundness="100"/>
-<smd name="8" x="2.366" y="1.905" dx="2.174" dy="0.583" layer="1" roundness="100"/>
-</package>
-<package name="INFINEON_IRF8910PBF_3">
-<description>Mosfet Array 2 N-Channel (Dual) 20V 10A 2W Surface Mount 8-SO</description>
-<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.15" layer="51"/>
-<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.15" layer="51"/>
-<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.15" layer="51"/>
-<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.15" layer="51"/>
-<wire x1="-3.353" y1="-2.55" x2="-3.353" y2="2.55" width="0.1" layer="41"/>
-<wire x1="-3.353" y1="2.55" x2="3.353" y2="2.55" width="0.1" layer="41"/>
-<wire x1="3.353" y1="2.55" x2="3.353" y2="-2.55" width="0.1" layer="41"/>
-<wire x1="3.353" y1="-2.55" x2="-3.353" y2="-2.55" width="0.1" layer="41"/>
-<wire x1="-0.879" y1="-2.45" x2="-0.879" y2="2.45" width="0.15" layer="21"/>
-<wire x1="-0.879" y1="2.45" x2="0.879" y2="2.45" width="0.15" layer="21"/>
-<wire x1="0.879" y1="2.45" x2="0.879" y2="-2.45" width="0.15" layer="21"/>
-<wire x1="0.879" y1="-2.45" x2="-0.879" y2="-2.45" width="0.15" layer="21"/>
-<text x="-1.928" y="2.75" size="1" layer="25">&gt;NAME</text>
-<circle x="-3.803" y="1.905" radius="0.25" width="0" layer="21"/>
-<smd name="1" x="-2.316" y="1.905" dx="1.874" dy="0.543" layer="1"/>
-<smd name="2" x="-2.316" y="0.635" dx="1.874" dy="0.543" layer="1" roundness="100"/>
-<smd name="3" x="-2.316" y="-0.635" dx="1.874" dy="0.543" layer="1" roundness="100"/>
-<smd name="4" x="-2.316" y="-1.905" dx="1.874" dy="0.543" layer="1" roundness="100"/>
-<smd name="5" x="2.316" y="-1.905" dx="1.874" dy="0.543" layer="1" roundness="100"/>
-<smd name="6" x="2.316" y="-0.635" dx="1.874" dy="0.543" layer="1" roundness="100"/>
-<smd name="7" x="2.316" y="0.635" dx="1.874" dy="0.543" layer="1" roundness="100"/>
-<smd name="8" x="2.316" y="1.905" dx="1.874" dy="0.543" layer="1" roundness="100"/>
-</package>
-</packages>
-<symbols>
-<symbol name="INFINEON_IRF8910PBF_0_0">
-<description>Mosfet Array 2 N-Channel (Dual) 20V 10A 2W Surface Mount 8-SO</description>
-<wire x1="1.016" y1="-12.7" x2="1.016" y2="-7.62" width="0.508" layer="94"/>
-<wire x1="1.778" y1="-8.636" x2="1.778" y2="-7.62" width="0.508" layer="94"/>
-<wire x1="1.778" y1="-12.192" x2="5.08" y2="-12.192" width="0.508" layer="94"/>
-<wire x1="1.778" y1="-8.128" x2="5.08" y2="-8.128" width="0.508" layer="94"/>
-<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="2.286" y1="-10.16" x2="3.556" y2="-9.398" width="0.508" layer="94"/>
-<wire x1="2.286" y1="-10.16" x2="3.556" y2="-10.922" width="0.508" layer="94"/>
-<wire x1="3.556" y1="-9.398" x2="3.556" y2="-10.922" width="0.508" layer="94"/>
-<wire x1="3.302" y1="-9.906" x2="3.302" y2="-10.668" width="0.508" layer="94"/>
-<wire x1="1.778" y1="-11.684" x2="1.778" y2="-12.7" width="0.508" layer="94"/>
-<wire x1="1.778" y1="-9.652" x2="1.778" y2="-10.668" width="0.508" layer="94"/>
-<wire x1="5.08" y1="-12.192" x2="6.858" y2="-12.192" width="0.508" layer="94"/>
-<wire x1="6.858" y1="-12.192" x2="6.858" y2="-8.128" width="0.508" layer="94"/>
-<wire x1="6.858" y1="-8.128" x2="5.08" y2="-8.128" width="0.508" layer="94"/>
-<wire x1="6.858" y1="-9.652" x2="6.35" y2="-10.668" width="0.508" layer="94"/>
-<wire x1="6.35" y1="-10.668" x2="7.366" y2="-10.668" width="0.508" layer="94"/>
-<wire x1="7.366" y1="-10.668" x2="6.858" y2="-9.652" width="0.508" layer="94"/>
-<wire x1="6.858" y1="-9.652" x2="7.366" y2="-9.652" width="0.508" layer="94"/>
-<wire x1="7.366" y1="-9.652" x2="7.62" y2="-9.398" width="0.508" layer="94"/>
-<wire x1="6.858" y1="-9.652" x2="6.35" y2="-9.652" width="0.508" layer="94"/>
-<wire x1="6.35" y1="-9.652" x2="6.096" y2="-9.906" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="5.08" y2="-5.08" width="0.508" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-7.62" width="0.508" layer="94"/>
-<wire x1="0" y1="-10.16" x2="1.016" y2="-10.16" width="0.15" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.15" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-5.588" width="0.15" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.15" layer="94"/>
-<text x="10.922" y="-7.62" size="2.54" layer="95" align="top-left">&gt;NAME</text>
-<text x="10.922" y="-10.414" size="2.54" layer="95" align="top-left">IRF8910PBF</text>
-<pin name="G1" x="-5.08" y="-10.16" visible="pad" length="middle" direction="pas"/>
-<pin name="S1" x="5.08" y="-15.24" visible="pad" length="middle" direction="pas" rot="R90"/>
-<pin name="1_D1" x="5.08" y="0" visible="pad" length="middle" direction="pas" rot="R270"/>
-<pin name="2_D1" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R270"/>
-<circle x="5.08" y="-8.128" radius="0.254" width="0.254" layer="94"/>
-<circle x="5.08" y="-12.192" radius="0.254" width="0.254" layer="94"/>
-</symbol>
-<symbol name="INFINEON_IRF8910PBF_0_1">
-<description>Mosfet Array 2 N-Channel (Dual) 20V 10A 2W Surface Mount 8-SO</description>
-<wire x1="1.016" y1="-12.7" x2="1.016" y2="-7.62" width="0.508" layer="94"/>
-<wire x1="1.778" y1="-8.636" x2="1.778" y2="-7.62" width="0.508" layer="94"/>
-<wire x1="1.778" y1="-12.192" x2="5.08" y2="-12.192" width="0.508" layer="94"/>
-<wire x1="1.778" y1="-8.128" x2="5.08" y2="-8.128" width="0.508" layer="94"/>
-<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="2.286" y1="-10.16" x2="3.556" y2="-9.398" width="0.508" layer="94"/>
-<wire x1="2.286" y1="-10.16" x2="3.556" y2="-10.922" width="0.508" layer="94"/>
-<wire x1="3.556" y1="-9.398" x2="3.556" y2="-10.922" width="0.508" layer="94"/>
-<wire x1="3.302" y1="-9.906" x2="3.302" y2="-10.668" width="0.508" layer="94"/>
-<wire x1="1.778" y1="-11.684" x2="1.778" y2="-12.7" width="0.508" layer="94"/>
-<wire x1="1.778" y1="-9.652" x2="1.778" y2="-10.668" width="0.508" layer="94"/>
-<wire x1="5.08" y1="-12.192" x2="6.858" y2="-12.192" width="0.508" layer="94"/>
-<wire x1="6.858" y1="-12.192" x2="6.858" y2="-8.128" width="0.508" layer="94"/>
-<wire x1="6.858" y1="-8.128" x2="5.08" y2="-8.128" width="0.508" layer="94"/>
-<wire x1="6.858" y1="-9.652" x2="6.35" y2="-10.668" width="0.508" layer="94"/>
-<wire x1="6.35" y1="-10.668" x2="7.366" y2="-10.668" width="0.508" layer="94"/>
-<wire x1="7.366" y1="-10.668" x2="6.858" y2="-9.652" width="0.508" layer="94"/>
-<wire x1="6.858" y1="-9.652" x2="7.366" y2="-9.652" width="0.508" layer="94"/>
-<wire x1="7.366" y1="-9.652" x2="7.62" y2="-9.398" width="0.508" layer="94"/>
-<wire x1="6.858" y1="-9.652" x2="6.35" y2="-9.652" width="0.508" layer="94"/>
-<wire x1="6.35" y1="-9.652" x2="6.096" y2="-9.906" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="5.08" y2="-5.08" width="0.508" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-7.62" width="0.508" layer="94"/>
-<wire x1="0" y1="-10.16" x2="1.016" y2="-10.16" width="0.15" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.15" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-5.588" width="0.15" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.15" layer="94"/>
-<text x="10.922" y="-7.62" size="2.54" layer="95" align="top-left">&gt;NAME</text>
-<text x="10.922" y="-10.414" size="2.54" layer="95" align="top-left">IRF8910PBF</text>
-<pin name="G2" x="-5.08" y="-10.16" visible="pad" length="middle" direction="pas"/>
-<pin name="S2" x="5.08" y="-15.24" visible="pad" length="middle" direction="pas" rot="R90"/>
-<pin name="1_D2" x="5.08" y="0" visible="pad" length="middle" direction="pas" rot="R270"/>
-<pin name="2_D2" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R270"/>
-<circle x="5.08" y="-8.128" radius="0.254" width="0.254" layer="94"/>
-<circle x="5.08" y="-12.192" radius="0.254" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="INFINEON_IRF8910PBF" prefix="Q">
-<description>Mosfet Array 2 N-Channel (Dual) 20V 10A 2W Surface Mount 8-SO</description>
-<gates>
-<gate name="A" symbol="INFINEON_IRF8910PBF_0_0" x="0" y="0"/>
-<gate name="B" symbol="INFINEON_IRF8910PBF_0_1" x="26.604" y="0"/>
-</gates>
-<devices>
-<device name="INFINEON_IRF8910PBF_0_0" package="INFINEON_IRF8910PBF_0">
-<connects>
-<connect gate="A" pin="1_D1" pad="7"/>
-<connect gate="A" pin="2_D1" pad="8"/>
-<connect gate="A" pin="G1" pad="2"/>
-<connect gate="A" pin="S1" pad="1"/>
-<connect gate="B" pin="1_D2" pad="5"/>
-<connect gate="B" pin="2_D2" pad="6"/>
-<connect gate="B" pin="G2" pad="4"/>
-<connect gate="B" pin="S2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AUTOMOTIVE" value="No"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="CONTINUOUS_DRAIN_CURRENT" value="10A"/>
-<attribute name="DATASHEET" value="https://www.infineon.com/dgdl/irf8910pbf.pdf?fileId=5546d462533600a401535610ec101d8d"/>
-<attribute name="DEPLETION_MODE" value="False"/>
-<attribute name="DEVICE_CLASS_L1" value="Discrete Semiconductors"/>
-<attribute name="DEVICE_CLASS_L2" value="Transistors"/>
-<attribute name="DEVICE_CLASS_L3" value="MOSFETs"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="MOSFET 2N-CH 20V 10A 8-SOIC"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="IRF8910PBF-ND"/>
-<attribute name="DRAIN_TO_SOURCE_BREAKDOWN_VOLTAGE" value="20V"/>
-<attribute name="DRAIN_TO_SOURCE_RESISTANCE" value="14.6mΩ"/>
-<attribute name="DRAIN_TO_SOURCE_VOLTAGE" value="20V"/>
-<attribute name="FOOTPRINT_PARAMETERS_1" value="{&quot;fp_type&quot;:&quot;SOIC_narrow&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:&quot;8&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:1350000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:100000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1500000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4800000,&quot;max&quot;:5000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:5800000,&quot;max&quot;:6200000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3800000,&quot;max&quot;:4000000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:330000,&quot;max&quot;:510000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:190000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:1270000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:400000,&quot;max&quot;:1270000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOIC_narrow&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:&quot;8&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:1350000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:100000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1500000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4800000,&quot;max&quot;:5000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:5800000,&quot;max&quot;:6200000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3800000,&quot;max&quot;:4000000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:330000,&quot;max&quot;:510000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:190000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:1270000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:400000,&quot;max&quot;:1270000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOIC_narrow&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:&quot;8&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:1350000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:100000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1500000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4800000,&quot;max&quot;:5000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:5800000,&quot;max&quot;:6200000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3800000,&quot;max&quot;:4000000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:330000,&quot;max&quot;:510000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:190000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:1270000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:400000,&quot;max&quot;:1270000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_URL" value="https://www.infineon.com/cms/en/product/packages/PG-DSO/PG-DSO-8-902/"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C"/>
-<attribute name="GATE_CHARGE_AT_VGS" value="7.4nC @ 4.5V"/>
-<attribute name="GATE_TO_SOURCE_VOLTAGE" value="20V"/>
-<attribute name="HEIGHT" value="1.75mm"/>
-<attribute name="INPUT_CAPACITACE_AT_VDS" value="960pF @ 10V"/>
-<attribute name="LEAD_FREE" value="Yes"/>
-<attribute name="MAX_FORWARD_DIODE_VOLTAGE" value="1V"/>
-<attribute name="MAX_JUNCTION_TEMP" value="+150°C"/>
-<attribute name="MF" value="Infineon"/>
-<attribute name="MFG_PACKAGE_IDENT" value="PG-DSO-8"/>
-<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="8fad051ce0ac8b36"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="11/2006"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="902"/>
-<attribute name="MOUSER_PART_NUMBER" value="942-IRF8910TRPBF"/>
-<attribute name="MPN" value="IRF8910PBF"/>
-<attribute name="NUMBER_OF_CHANNELS" value="2"/>
-<attribute name="NUMBER_OF_N_CHANNELS" value="2"/>
-<attribute name="PACKAGE" value="SOIC8"/>
-<attribute name="POWER_DISSIPATION" value="2W"/>
-<attribute name="PREFIX" value="Q"/>
-<attribute name="PULSE_DRAIN_CURRENT" value="82A"/>
-<attribute name="REVERSE_RECOVERY_CHARGE" value="6.5nC"/>
-<attribute name="REVERSE_RECOVERY_TIME" value="17ns"/>
-<attribute name="ROHS" value="Yes"/>
-<attribute name="RTHJA_MAX" value="62.5°C/W"/>
-<attribute name="STANDOFF_HEIGHT" value="0.1mm"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
-<attribute name="THRESHOLD_VGS_MAX" value="2.55V"/>
-<attribute name="THRESHOLD_VGS_MIN" value="1.65V"/>
-<attribute name="TURN_OFF_DELAY_TIME" value="9.7ns"/>
-<attribute name="TURN_ON_DELAY_TIME" value="6.2ns"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
-</technology>
-</technologies>
-</device>
-<device name="INFINEON_IRF8910PBF_0_1" package="INFINEON_IRF8910PBF_1">
-<connects>
-<connect gate="A" pin="1_D1" pad="7"/>
-<connect gate="A" pin="2_D1" pad="8"/>
-<connect gate="A" pin="G1" pad="2"/>
-<connect gate="A" pin="S1" pad="1"/>
-<connect gate="B" pin="1_D2" pad="5"/>
-<connect gate="B" pin="2_D2" pad="6"/>
-<connect gate="B" pin="G2" pad="4"/>
-<connect gate="B" pin="S2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AUTOMOTIVE" value="No"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="CONTINUOUS_DRAIN_CURRENT" value="10A"/>
-<attribute name="DATASHEET" value="https://www.infineon.com/dgdl/irf8910pbf.pdf?fileId=5546d462533600a401535610ec101d8d"/>
-<attribute name="DEPLETION_MODE" value="False"/>
-<attribute name="DEVICE_CLASS_L1" value="Discrete Semiconductors"/>
-<attribute name="DEVICE_CLASS_L2" value="Transistors"/>
-<attribute name="DEVICE_CLASS_L3" value="MOSFETs"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="MOSFET 2N-CH 20V 10A 8-SOIC"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="IRF8910PBF-ND"/>
-<attribute name="DRAIN_TO_SOURCE_BREAKDOWN_VOLTAGE" value="20V"/>
-<attribute name="DRAIN_TO_SOURCE_RESISTANCE" value="14.6mΩ"/>
-<attribute name="DRAIN_TO_SOURCE_VOLTAGE" value="20V"/>
-<attribute name="FOOTPRINT_PARAMETERS_1" value="{&quot;fp_type&quot;:&quot;SOIC_narrow&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:&quot;8&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:1350000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:100000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1500000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4800000,&quot;max&quot;:5000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:5800000,&quot;max&quot;:6200000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3800000,&quot;max&quot;:4000000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:330000,&quot;max&quot;:510000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:190000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:1270000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:400000,&quot;max&quot;:1270000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOIC_narrow&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:&quot;8&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:1350000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:100000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1500000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4800000,&quot;max&quot;:5000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:5800000,&quot;max&quot;:6200000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3800000,&quot;max&quot;:4000000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:330000,&quot;max&quot;:510000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:190000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:1270000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:400000,&quot;max&quot;:1270000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOIC_narrow&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:&quot;8&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:1350000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:100000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1500000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4800000,&quot;max&quot;:5000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:5800000,&quot;max&quot;:6200000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3800000,&quot;max&quot;:4000000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:330000,&quot;max&quot;:510000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:190000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:1270000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:400000,&quot;max&quot;:1270000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_URL" value="https://www.infineon.com/cms/en/product/packages/PG-DSO/PG-DSO-8-902/"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C"/>
-<attribute name="GATE_CHARGE_AT_VGS" value="7.4nC @ 4.5V"/>
-<attribute name="GATE_TO_SOURCE_VOLTAGE" value="20V"/>
-<attribute name="HEIGHT" value="1.75mm"/>
-<attribute name="INPUT_CAPACITACE_AT_VDS" value="960pF @ 10V"/>
-<attribute name="LEAD_FREE" value="Yes"/>
-<attribute name="MAX_FORWARD_DIODE_VOLTAGE" value="1V"/>
-<attribute name="MAX_JUNCTION_TEMP" value="+150°C"/>
-<attribute name="MF" value="Infineon"/>
-<attribute name="MFG_PACKAGE_IDENT" value="PG-DSO-8"/>
-<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="8fad051ce0ac8b36"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="11/2006"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="902"/>
-<attribute name="MOUSER_PART_NUMBER" value="942-IRF8910TRPBF"/>
-<attribute name="MPN" value="IRF8910PBF"/>
-<attribute name="NUMBER_OF_CHANNELS" value="2"/>
-<attribute name="NUMBER_OF_N_CHANNELS" value="2"/>
-<attribute name="PACKAGE" value="SOIC8"/>
-<attribute name="POWER_DISSIPATION" value="2W"/>
-<attribute name="PREFIX" value="Q"/>
-<attribute name="PULSE_DRAIN_CURRENT" value="82A"/>
-<attribute name="REVERSE_RECOVERY_CHARGE" value="6.5nC"/>
-<attribute name="REVERSE_RECOVERY_TIME" value="17ns"/>
-<attribute name="ROHS" value="Yes"/>
-<attribute name="RTHJA_MAX" value="62.5°C/W"/>
-<attribute name="STANDOFF_HEIGHT" value="0.1mm"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
-<attribute name="THRESHOLD_VGS_MAX" value="2.55V"/>
-<attribute name="THRESHOLD_VGS_MIN" value="1.65V"/>
-<attribute name="TURN_OFF_DELAY_TIME" value="9.7ns"/>
-<attribute name="TURN_ON_DELAY_TIME" value="6.2ns"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
-</technology>
-</technologies>
-</device>
-<device name="INFINEON_IRF8910PBF_0_2" package="INFINEON_IRF8910PBF_2">
-<connects>
-<connect gate="A" pin="1_D1" pad="7"/>
-<connect gate="A" pin="2_D1" pad="8"/>
-<connect gate="A" pin="G1" pad="2"/>
-<connect gate="A" pin="S1" pad="1"/>
-<connect gate="B" pin="1_D2" pad="5"/>
-<connect gate="B" pin="2_D2" pad="6"/>
-<connect gate="B" pin="G2" pad="4"/>
-<connect gate="B" pin="S2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AUTOMOTIVE" value="No"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="CONTINUOUS_DRAIN_CURRENT" value="10A"/>
-<attribute name="DATASHEET" value="https://www.infineon.com/dgdl/irf8910pbf.pdf?fileId=5546d462533600a401535610ec101d8d"/>
-<attribute name="DEPLETION_MODE" value="False"/>
-<attribute name="DEVICE_CLASS_L1" value="Discrete Semiconductors"/>
-<attribute name="DEVICE_CLASS_L2" value="Transistors"/>
-<attribute name="DEVICE_CLASS_L3" value="MOSFETs"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="MOSFET 2N-CH 20V 10A 8-SOIC"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="IRF8910PBF-ND"/>
-<attribute name="DRAIN_TO_SOURCE_BREAKDOWN_VOLTAGE" value="20V"/>
-<attribute name="DRAIN_TO_SOURCE_RESISTANCE" value="14.6mΩ"/>
-<attribute name="DRAIN_TO_SOURCE_VOLTAGE" value="20V"/>
-<attribute name="FOOTPRINT_PARAMETERS_1" value="{&quot;fp_type&quot;:&quot;SOIC_narrow&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:&quot;8&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:1350000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:100000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1500000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4800000,&quot;max&quot;:5000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:5800000,&quot;max&quot;:6200000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3800000,&quot;max&quot;:4000000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:330000,&quot;max&quot;:510000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:190000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:1270000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:400000,&quot;max&quot;:1270000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOIC_narrow&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:&quot;8&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:1350000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:100000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1500000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4800000,&quot;max&quot;:5000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:5800000,&quot;max&quot;:6200000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3800000,&quot;max&quot;:4000000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:330000,&quot;max&quot;:510000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:190000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:1270000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:400000,&quot;max&quot;:1270000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOIC_narrow&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:&quot;8&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:1350000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:100000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1500000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4800000,&quot;max&quot;:5000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:5800000,&quot;max&quot;:6200000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3800000,&quot;max&quot;:4000000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:330000,&quot;max&quot;:510000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:190000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:1270000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:400000,&quot;max&quot;:1270000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_URL" value="https://www.infineon.com/cms/en/product/packages/PG-DSO/PG-DSO-8-902/"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C"/>
-<attribute name="GATE_CHARGE_AT_VGS" value="7.4nC @ 4.5V"/>
-<attribute name="GATE_TO_SOURCE_VOLTAGE" value="20V"/>
-<attribute name="HEIGHT" value="1.75mm"/>
-<attribute name="INPUT_CAPACITACE_AT_VDS" value="960pF @ 10V"/>
-<attribute name="LEAD_FREE" value="Yes"/>
-<attribute name="MAX_FORWARD_DIODE_VOLTAGE" value="1V"/>
-<attribute name="MAX_JUNCTION_TEMP" value="+150°C"/>
-<attribute name="MF" value="Infineon"/>
-<attribute name="MFG_PACKAGE_IDENT" value="PG-DSO-8"/>
-<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="8fad051ce0ac8b36"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="11/2006"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="902"/>
-<attribute name="MOUSER_PART_NUMBER" value="942-IRF8910TRPBF"/>
-<attribute name="MPN" value="IRF8910PBF"/>
-<attribute name="NUMBER_OF_CHANNELS" value="2"/>
-<attribute name="NUMBER_OF_N_CHANNELS" value="2"/>
-<attribute name="PACKAGE" value="SOIC8"/>
-<attribute name="POWER_DISSIPATION" value="2W"/>
-<attribute name="PREFIX" value="Q"/>
-<attribute name="PULSE_DRAIN_CURRENT" value="82A"/>
-<attribute name="REVERSE_RECOVERY_CHARGE" value="6.5nC"/>
-<attribute name="REVERSE_RECOVERY_TIME" value="17ns"/>
-<attribute name="ROHS" value="Yes"/>
-<attribute name="RTHJA_MAX" value="62.5°C/W"/>
-<attribute name="STANDOFF_HEIGHT" value="0.1mm"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
-<attribute name="THRESHOLD_VGS_MAX" value="2.55V"/>
-<attribute name="THRESHOLD_VGS_MIN" value="1.65V"/>
-<attribute name="TURN_OFF_DELAY_TIME" value="9.7ns"/>
-<attribute name="TURN_ON_DELAY_TIME" value="6.2ns"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
-</technology>
-</technologies>
-</device>
-<device name="INFINEON_IRF8910PBF_0_3" package="INFINEON_IRF8910PBF_3">
-<connects>
-<connect gate="A" pin="1_D1" pad="7"/>
-<connect gate="A" pin="2_D1" pad="8"/>
-<connect gate="A" pin="G1" pad="2"/>
-<connect gate="A" pin="S1" pad="1"/>
-<connect gate="B" pin="1_D2" pad="5"/>
-<connect gate="B" pin="2_D2" pad="6"/>
-<connect gate="B" pin="G2" pad="4"/>
-<connect gate="B" pin="S2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AUTOMOTIVE" value="No"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="CONTINUOUS_DRAIN_CURRENT" value="10A"/>
-<attribute name="DATASHEET" value="https://www.infineon.com/dgdl/irf8910pbf.pdf?fileId=5546d462533600a401535610ec101d8d"/>
-<attribute name="DEPLETION_MODE" value="False"/>
-<attribute name="DEVICE_CLASS_L1" value="Discrete Semiconductors"/>
-<attribute name="DEVICE_CLASS_L2" value="Transistors"/>
-<attribute name="DEVICE_CLASS_L3" value="MOSFETs"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="MOSFET 2N-CH 20V 10A 8-SOIC"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="IRF8910PBF-ND"/>
-<attribute name="DRAIN_TO_SOURCE_BREAKDOWN_VOLTAGE" value="20V"/>
-<attribute name="DRAIN_TO_SOURCE_RESISTANCE" value="14.6mΩ"/>
-<attribute name="DRAIN_TO_SOURCE_VOLTAGE" value="20V"/>
-<attribute name="FOOTPRINT_PARAMETERS_1" value="{&quot;fp_type&quot;:&quot;SOIC_narrow&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:&quot;8&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:1350000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:100000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1500000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4800000,&quot;max&quot;:5000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:5800000,&quot;max&quot;:6200000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3800000,&quot;max&quot;:4000000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:330000,&quot;max&quot;:510000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:190000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:1270000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:400000,&quot;max&quot;:1270000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOIC_narrow&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:&quot;8&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:1350000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:100000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1500000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4800000,&quot;max&quot;:5000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:5800000,&quot;max&quot;:6200000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3800000,&quot;max&quot;:4000000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:330000,&quot;max&quot;:510000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:190000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:1270000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:400000,&quot;max&quot;:1270000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOIC_narrow&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:&quot;8&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:1350000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:100000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1500000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4800000,&quot;max&quot;:5000000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:5800000,&quot;max&quot;:6200000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3800000,&quot;max&quot;:4000000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:330000,&quot;max&quot;:510000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:190000,&quot;max&quot;:250000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:1270000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:400000,&quot;max&quot;:1270000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_URL" value="https://www.infineon.com/cms/en/product/packages/PG-DSO/PG-DSO-8-902/"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C"/>
-<attribute name="GATE_CHARGE_AT_VGS" value="7.4nC @ 4.5V"/>
-<attribute name="GATE_TO_SOURCE_VOLTAGE" value="20V"/>
-<attribute name="HEIGHT" value="1.75mm"/>
-<attribute name="INPUT_CAPACITACE_AT_VDS" value="960pF @ 10V"/>
-<attribute name="LEAD_FREE" value="Yes"/>
-<attribute name="MAX_FORWARD_DIODE_VOLTAGE" value="1V"/>
-<attribute name="MAX_JUNCTION_TEMP" value="+150°C"/>
-<attribute name="MF" value="Infineon"/>
-<attribute name="MFG_PACKAGE_IDENT" value="PG-DSO-8"/>
-<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="8fad051ce0ac8b36"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="11/2006"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="902"/>
-<attribute name="MOUSER_PART_NUMBER" value="942-IRF8910TRPBF"/>
-<attribute name="MPN" value="IRF8910PBF"/>
-<attribute name="NUMBER_OF_CHANNELS" value="2"/>
-<attribute name="NUMBER_OF_N_CHANNELS" value="2"/>
-<attribute name="PACKAGE" value="SOIC8"/>
-<attribute name="POWER_DISSIPATION" value="2W"/>
-<attribute name="PREFIX" value="Q"/>
-<attribute name="PULSE_DRAIN_CURRENT" value="82A"/>
-<attribute name="REVERSE_RECOVERY_CHARGE" value="6.5nC"/>
-<attribute name="REVERSE_RECOVERY_TIME" value="17ns"/>
-<attribute name="ROHS" value="Yes"/>
-<attribute name="RTHJA_MAX" value="62.5°C/W"/>
-<attribute name="STANDOFF_HEIGHT" value="0.1mm"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
-<attribute name="THRESHOLD_VGS_MAX" value="2.55V"/>
-<attribute name="THRESHOLD_VGS_MIN" value="1.65V"/>
-<attribute name="TURN_OFF_DELAY_TIME" value="9.7ns"/>
-<attribute name="TURN_ON_DELAY_TIME" value="6.2ns"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -13190,12 +12718,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </technologies>
 </device>
 </devices>
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
 </deviceset>
 <deviceset name="R-US_" urn="urn:adsk.eagle:component:23792/22" prefix="R" uservalue="yes" library_version="11">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
@@ -14479,12 +14001,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </technologies>
 </device>
 </devices>
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
 </deviceset>
 <deviceset name="CPOL-US" urn="urn:adsk.eagle:component:23788/29" prefix="C" uservalue="yes" library_version="11">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, American symbol</description>
@@ -17118,12 +16634,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </technologies>
 </device>
 </devices>
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="+" pinorder="1"/>
-<pinmap gate="G$1" pin="-" pinorder="2"/>
-</pinmapping>
-</spice>
 </deviceset>
 </devicesets>
 </library>
@@ -17344,23 +16854,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </library>
 <library name="CustomParts">
 <packages>
-<package name="SOT143" urn="urn:adsk.eagle:footprint:26302/1">
-<description>&lt;b&gt;SOT-143&lt;/b&gt;</description>
-<wire x1="-1.448" y1="0.635" x2="1.448" y2="0.635" width="0.1" layer="51"/>
-<wire x1="-1.448" y1="-0.635" x2="1.448" y2="-0.635" width="0.1" layer="51"/>
-<wire x1="-1.448" y1="-0.635" x2="-1.448" y2="0.635" width="0.1" layer="51"/>
-<wire x1="1.448" y1="-0.635" x2="1.448" y2="0.635" width="0.1" layer="51"/>
-<smd name="4" x="-0.95" y="1.1" dx="1" dy="1.44" layer="1"/>
-<smd name="3" x="0.95" y="1.1" dx="1" dy="1.44" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.44" layer="1"/>
-<smd name="1" x="-0.75" y="-1.1" dx="1.2" dy="1.44" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.7366" y1="-1.3208" x2="1.1938" y2="-0.635" layer="51"/>
-<rectangle x1="0.7112" y1="0.635" x2="1.1684" y2="1.3208" layer="51"/>
-<rectangle x1="-1.143" y1="0.635" x2="-0.6858" y2="1.3208" layer="51"/>
-<rectangle x1="-1.1938" y1="-1.3208" x2="-0.3048" y2="-0.635" layer="51"/>
-</package>
 <package name="SOIC127P600X175-14N">
 <circle x="-4.43" y="4.4" radius="0.2" width="0.15" layer="21"/>
 <circle x="-4.43" y="4.4" radius="0.2" width="0.17" layer="51"/>
@@ -17393,18 +16886,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="MIC5018YM4">
-<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<pin name="VS" x="-15.24" y="2.54" length="middle" direction="pwr"/>
-<pin name="G" x="-15.24" y="-2.54" length="middle" direction="out"/>
-<pin name="GND" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="CTL" x="15.24" y="-2.54" length="middle" direction="in" rot="R180"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;Name</text>
-<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;Value</text>
-</symbol>
 <symbol name="ATTINY1614-SSNR">
 <wire x1="-17.78" y1="15.24" x2="17.78" y2="15.24" width="0.41" layer="94"/>
 <wire x1="17.78" y1="15.24" x2="17.78" y2="-15.24" width="0.41" layer="94"/>
@@ -17429,24 +16910,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MIC5018">
-<gates>
-<gate name="G$1" symbol="MIC5018YM4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT143">
-<connects>
-<connect gate="G$1" pin="CTL" pad="4"/>
-<connect gate="G$1" pin="G" pad="3"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VS" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ATTINY1614-SSNR" prefix="U">
 <description>20MHz, SOIC, 85C, Green, 14 SOIC .150in T/R &lt;a href="https://pricing.snapeda.com/parts/ATTINY1614-SSNR/Microchip/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
@@ -22612,9 +22075,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="Q1" library="Infineon - IRF8910PBF" deviceset="INFINEON_IRF8910PBF" device="INFINEON_IRF8910PBF_0_0" value="j"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1nf"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1nf"/>
 <part name="U2" library="AP2112K-3.3TRG1" deviceset="AP2112K-3.3TRG1" device="" value="RS3236-3.3"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="1uf"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="1uf"/>
@@ -22623,28 +22083,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="200k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="U$1" library="IRF7314PBF" deviceset="IRF7314PBF" device=""/>
-<part name="U$2" library="CustomParts" deviceset="MIC5018" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD323-W" package3d_urn="urn:adsk.eagle:package:43418/1"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD323-W" package3d_urn="urn:adsk.eagle:package:43418/1"/>
-<part name="U$3" library="CustomParts" deviceset="MIC5018" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1nf"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="153CLV-0605" package3d_urn="urn:adsk.eagle:package:23398/2" value="100uf"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="65"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="65"/>
-<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+UB" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+7V" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="CustomParts" deviceset="ATTINY1614-SSNR" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="WALL" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="BAT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
@@ -22658,617 +22112,569 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="3V3_PAD" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="BEOFRE_V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="UPDI_PAD" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
-<part name="WALL_EN_PAD" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
-<part name="BAT_EN_PAD" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
-<part name="WALL_SENSE_PAD" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
-<part name="VB_SENSE_PAD" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="BAT_EN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="WALL_SENSE" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="VB_SENSE" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="SERIAL" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="V_OUT_PAD" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="V_OUT" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="U$2" library="IRF7314PBF" deviceset="IRF7314PBF" device=""/>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+UB" device=""/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="WALL_EN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="Q1" gate="A" x="-43.18" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="-54.102" y="111.76" size="2.54" layer="95" rot="R180" align="top-left"/>
+<instance part="U2" gate="G$1" x="1.27" y="57.15" smashed="yes">
+<attribute name="NAME" x="-6.39295" y="65.797609375" size="1.27" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="-6.3789" y="45.4993" size="1.27" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="Q1" gate="B" x="-43.18" y="93.98" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-54.102" y="86.36" size="2.54" layer="95" rot="MR0" align="top-left"/>
+<instance part="C6" gate="G$1" x="-16.51" y="59.69" smashed="yes">
+<attribute name="NAME" x="-15.494" y="60.325" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-15.494" y="55.499" size="1.27" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="-30.48" y="104.14" smashed="yes">
-<attribute name="NAME" x="-29.464" y="104.775" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-29.464" y="99.949" size="1.778" layer="96"/>
+<instance part="C7" gate="G$1" x="16.51" y="59.69" smashed="yes">
+<attribute name="NAME" x="17.526" y="60.325" size="1.27" layer="95"/>
+<attribute name="VALUE" x="17.526" y="55.499" size="1.27" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="-30.48" y="73.66" smashed="yes">
-<attribute name="NAME" x="-29.464" y="74.295" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-29.464" y="69.469" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="45.72" y="71.12" smashed="yes">
+<attribute name="NAME" x="41.91" y="72.6186" size="1.27" layer="95"/>
+<attribute name="VALUE" x="41.91" y="67.818" size="1.27" layer="96"/>
 </instance>
-<instance part="U2" gate="G$1" x="-55.88" y="43.18" smashed="yes">
-<attribute name="NAME" x="-63.54295" y="51.827609375" size="2.08946875" layer="95" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="-63.5289" y="31.5293" size="2.0883" layer="96" ratio="10" rot="SR0"/>
+<instance part="R2" gate="G$1" x="45.72" y="63.5" smashed="yes">
+<attribute name="NAME" x="41.91" y="64.9986" size="1.27" layer="95"/>
+<attribute name="VALUE" x="41.91" y="60.198" size="1.27" layer="96"/>
 </instance>
-<instance part="C6" gate="G$1" x="-73.66" y="45.72" smashed="yes">
-<attribute name="NAME" x="-72.644" y="46.355" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-72.644" y="41.529" size="1.778" layer="96"/>
+<instance part="R3" gate="G$1" x="45.72" y="53.34" smashed="yes">
+<attribute name="NAME" x="41.91" y="54.8386" size="1.27" layer="95"/>
+<attribute name="VALUE" x="41.91" y="50.038" size="1.27" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="-40.64" y="45.72" smashed="yes">
-<attribute name="NAME" x="-39.624" y="46.355" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-39.624" y="41.529" size="1.778" layer="96"/>
+<instance part="R4" gate="G$1" x="45.72" y="45.72" smashed="yes">
+<attribute name="NAME" x="41.91" y="47.2186" size="1.27" layer="95"/>
+<attribute name="VALUE" x="41.91" y="42.418" size="1.27" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="-20.32" y="48.26" smashed="yes">
-<attribute name="NAME" x="-24.13" y="49.7586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-24.13" y="44.958" size="1.778" layer="96"/>
+<instance part="U$1" gate="G$1" x="15.24" y="78.74" smashed="yes" rot="MR90">
+<attribute name="NAME" x="20.32" y="83.82" size="1.27" layer="95" rot="MR0"/>
 </instance>
-<instance part="R2" gate="G$1" x="-20.32" y="40.64" smashed="yes">
-<attribute name="NAME" x="-24.13" y="42.1386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-24.13" y="37.338" size="1.778" layer="96"/>
+<instance part="U$1" gate="G$2" x="2.54" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.3766" y="85.09295" size="1.27" layer="95" rot="R180"/>
 </instance>
-<instance part="R3" gate="G$1" x="-20.32" y="30.48" smashed="yes">
-<attribute name="NAME" x="-24.13" y="31.9786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-24.13" y="27.178" size="1.778" layer="96"/>
+<instance part="D1" gate="G$1" x="-15.24" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="-16.51" y="94.7674" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-17.5514" y="91.44" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R4" gate="G$1" x="-20.32" y="22.86" smashed="yes">
-<attribute name="NAME" x="-24.13" y="24.3586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-24.13" y="19.558" size="1.778" layer="96"/>
+<instance part="D2" gate="G$1" x="-15.24" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="-16.51" y="87.1474" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-12.9286" y="88.9" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="35.56" y="111.76" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="24.0909" y="115.58305" size="1.784090625" layer="96" rot="MR180"/>
-<attribute name="NAME" x="24.1034" y="113.03295" size="1.782140625" layer="95" rot="MR180"/>
+<instance part="C3" gate="G$1" x="90.17" y="83.82" smashed="yes" rot="R270">
+<attribute name="NAME" x="90.805" y="82.804" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="85.979" y="82.804" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="U$1" gate="G$2" x="35.56" y="83.82" smashed="yes">
-<attribute name="VALUE" x="24.0909" y="79.99695" size="1.784090625" layer="96"/>
-<attribute name="NAME" x="24.1034" y="82.54705" size="1.782140625" layer="95"/>
+<instance part="LED1" gate="G$1" x="125.73" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="132.842" y="64.516" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="130.302" y="71.755" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$2" gate="G$1" x="-15.24" y="111.76" smashed="yes" rot="MR180">
-<attribute name="NAME" x="-10.16" y="119.38" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="-25.4" y="119.38" size="1.778" layer="96" rot="MR180"/>
+<instance part="LED2" gate="G$1" x="125.73" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="132.842" y="54.356" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="130.302" y="64.135" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D1" gate="G$1" x="-63.5" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="-66.04" y="68.0974" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-66.04" y="70.8914" size="1.778" layer="96" rot="R180"/>
+<instance part="C4" gate="G$1" x="30.48" y="93.98" smashed="yes">
+<attribute name="NAME" x="31.496" y="94.615" size="1.27" layer="95"/>
+<attribute name="VALUE" x="31.496" y="89.789" size="1.27" layer="96"/>
 </instance>
-<instance part="D2" gate="G$1" x="-63.5" y="60.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="-66.04" y="60.4774" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-66.04" y="63.2714" size="1.778" layer="96" rot="R180"/>
+<instance part="R5" gate="G$1" x="137.16" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="134.62" y="68.3514" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="140.97" y="68.072" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="U$3" gate="G$1" x="-15.24" y="81.28" smashed="yes" rot="MR180">
-<attribute name="NAME" x="-10.16" y="88.9" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="-25.4" y="88.9" size="1.778" layer="96" rot="MR180"/>
+<instance part="R6" gate="G$1" x="137.16" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="134.62" y="60.7314" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="139.7" y="61.722" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="C3" gate="G$1" x="15.24" y="60.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="15.875" y="59.944" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="11.049" y="59.944" size="1.778" layer="96" rot="R270"/>
+<instance part="SUPPLY2" gate="G$1" x="-17.78" y="99.06" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-20.955" y="97.155" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="LED1" gate="G$1" x="48.26" y="27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.372" y="26.416" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="52.832" y="33.655" size="1.778" layer="96" rot="R180"/>
+<instance part="GND2" gate="1" x="-17.78" y="73.66" smashed="yes">
+<attribute name="VALUE" x="-20.32" y="71.12" size="1.27" layer="96"/>
 </instance>
-<instance part="LED2" gate="G$1" x="48.26" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.372" y="16.256" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="52.832" y="26.035" size="1.778" layer="96" rot="R180"/>
+<instance part="GND5" gate="1" x="1.27" y="41.91" smashed="yes">
+<attribute name="VALUE" x="-1.27" y="39.37" size="1.27" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="10.16" y="116.84" smashed="yes">
-<attribute name="NAME" x="11.176" y="117.475" size="1.778" layer="95"/>
-<attribute name="VALUE" x="11.176" y="112.649" size="1.778" layer="96"/>
+<instance part="U1" gate="G$1" x="95.25" y="58.42" smashed="yes">
+<attribute name="NAME" x="77.47" y="74.66" size="1.27" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="77.47" y="39.18" size="1.27" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="R5" gate="G$1" x="60.96" y="27.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="64.77" y="26.4414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="64.77" y="31.242" size="1.778" layer="96" rot="R180"/>
+<instance part="GND6" gate="1" x="38.1" y="43.18" smashed="yes">
+<attribute name="VALUE" x="35.56" y="40.64" size="1.27" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="60.96" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="64.77" y="18.8214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="64.77" y="23.622" size="1.778" layer="96" rot="R180"/>
+<instance part="GND7" gate="1" x="38.1" y="60.96" smashed="yes">
+<attribute name="VALUE" x="35.56" y="58.42" size="1.27" layer="96"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="48.26" y="81.28" smashed="yes">
-<attribute name="VALUE" x="46.355" y="84.455" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="102.87" y="81.28" smashed="yes">
+<attribute name="VALUE" x="100.33" y="78.74" size="1.27" layer="96"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="-76.2" y="81.28" smashed="yes">
-<attribute name="VALUE" x="-78.105" y="84.455" size="1.778" layer="96"/>
+<instance part="R8" gate="G$1" x="-7.62" y="76.2" smashed="yes">
+<attribute name="NAME" x="-8.89" y="77.6986" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-7.62" y="73.66" size="1.27" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="-15.24" y="96.52" smashed="yes">
-<attribute name="VALUE" x="-17.78" y="93.98" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="142.24" y="52.07" smashed="yes">
+<attribute name="VALUE" x="139.7" y="49.53" size="1.27" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="-15.24" y="66.04" smashed="yes">
-<attribute name="VALUE" x="-17.78" y="63.5" size="1.778" layer="96"/>
+<instance part="WALL" gate="G$1" x="62.23" y="21.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="67.945" y="27.94" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="57.15" y="27.94" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND4" gate="1" x="10.16" y="109.22" smashed="yes">
-<attribute name="VALUE" x="7.62" y="106.68" size="1.778" layer="96"/>
+<instance part="BAT" gate="G$1" x="46.99" y="21.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="52.705" y="27.94" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="41.91" y="27.94" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND5" gate="1" x="-55.88" y="27.94" smashed="yes">
-<attribute name="VALUE" x="-58.42" y="25.4" size="1.778" layer="96"/>
+<instance part="OUT" gate="G$1" x="31.75" y="21.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.465" y="27.94" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="26.67" y="27.94" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U1" gate="G$1" x="20.32" y="35.56" smashed="yes">
-<attribute name="NAME" x="2.54" y="51.8" size="2.0828" layer="95" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="2.54" y="16.32" size="2.0828" layer="96" ratio="10" rot="SR0"/>
+<instance part="PROGRAM" gate="A" x="16.51" y="21.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.225" y="27.94" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="8.89" y="27.94" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND6" gate="1" x="-27.94" y="20.32" smashed="yes">
-<attribute name="VALUE" x="-30.48" y="17.78" size="1.778" layer="96"/>
+<instance part="GND10" gate="1" x="59.69" y="13.97" smashed="yes" rot="R270">
+<attribute name="VALUE" x="57.15" y="16.51" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="GND7" gate="1" x="-27.94" y="38.1" smashed="yes">
-<attribute name="VALUE" x="-30.48" y="35.56" size="1.778" layer="96"/>
+<instance part="GND11" gate="1" x="44.45" y="13.97" smashed="yes" rot="R270">
+<attribute name="VALUE" x="41.91" y="16.51" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="GND8" gate="1" x="27.94" y="58.42" smashed="yes">
-<attribute name="VALUE" x="25.4" y="55.88" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="29.21" y="13.97" smashed="yes" rot="R270">
+<attribute name="VALUE" x="26.67" y="16.51" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="R7" gate="G$1" x="38.1" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.91" y="72.1614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="41.91" y="76.962" size="1.778" layer="96" rot="R180"/>
+<instance part="GND13" gate="1" x="11.43" y="13.97" smashed="yes" rot="R270">
+<attribute name="VALUE" x="8.89" y="16.51" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="R8" gate="G$1" x="27.94" y="101.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.75" y="100.1014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="31.75" y="104.902" size="1.778" layer="96" rot="R180"/>
+<instance part="C5" gate="G$1" x="40.64" y="93.98" smashed="yes">
+<attribute name="NAME" x="41.656" y="94.615" size="1.27" layer="95"/>
+<attribute name="VALUE" x="41.656" y="89.789" size="1.27" layer="96"/>
 </instance>
-<instance part="GND9" gate="1" x="71.12" y="17.78" smashed="yes">
-<attribute name="VALUE" x="68.58" y="15.24" size="1.778" layer="96"/>
+<instance part="3V3_PAD" gate="1" x="24.13" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.3558" y="52.197" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="27.432" y="54.737" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="WALL" gate="G$1" x="73.66" y="99.06" smashed="yes">
-<attribute name="NAME" x="67.31" y="104.775" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.31" y="93.98" size="1.778" layer="96"/>
+<instance part="BEOFRE_V" gate="1" x="-12.7" y="90.17" smashed="yes" rot="R180">
+<attribute name="NAME" x="-19.177" y="88.3158" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-11.557" y="93.472" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="BAT" gate="G$1" x="73.66" y="83.82" smashed="yes">
-<attribute name="NAME" x="67.31" y="89.535" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.31" y="78.74" size="1.778" layer="96"/>
+<instance part="UPDI_PAD" gate="1" x="19.05" y="30.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="21.717" y="31.0642" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="20.193" y="33.782" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="OUT" gate="G$1" x="73.66" y="68.58" smashed="yes">
-<attribute name="NAME" x="67.31" y="74.295" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.31" y="63.5" size="1.778" layer="96"/>
+<instance part="BAT_EN" gate="1" x="12.7" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.3858" y="69.977" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="16.002" y="69.977" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PROGRAM" gate="A" x="73.66" y="53.34" smashed="yes">
-<attribute name="NAME" x="67.31" y="59.055" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.31" y="45.72" size="1.778" layer="96"/>
+<instance part="WALL_SENSE" gate="1" x="55.88" y="71.12" smashed="yes" rot="R270">
+<attribute name="NAME" x="52.6542" y="73.533" size="1.27" layer="95"/>
+<attribute name="VALUE" x="52.578" y="72.263" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND10" gate="1" x="81.28" y="96.52" smashed="yes">
-<attribute name="VALUE" x="78.74" y="93.98" size="1.778" layer="96"/>
+<instance part="VB_SENSE" gate="1" x="50.8" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="53.467" y="41.2242" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="54.102" y="42.037" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND11" gate="1" x="81.28" y="81.28" smashed="yes">
-<attribute name="VALUE" x="78.74" y="78.74" size="1.778" layer="96"/>
+<instance part="SERIAL" gate="G$1" x="80.01" y="21.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="85.725" y="27.94" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="74.93" y="27.94" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND12" gate="1" x="81.28" y="66.04" smashed="yes">
-<attribute name="VALUE" x="78.74" y="63.5" size="1.778" layer="96"/>
+<instance part="V_OUT" gate="1" x="49.53" y="92.71" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.6758" y="91.567" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="52.832" y="91.567" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND13" gate="1" x="81.28" y="48.26" smashed="yes">
-<attribute name="VALUE" x="78.74" y="45.72" size="1.778" layer="96"/>
+<instance part="U$2" gate="G$1" x="15.24" y="96.52" smashed="yes" rot="MR90">
+<attribute name="NAME" x="12.7" y="104.14" size="1.27" layer="95" rot="MR180"/>
 </instance>
-<instance part="C5" gate="G$1" x="17.78" y="116.84" smashed="yes">
-<attribute name="NAME" x="18.796" y="117.475" size="1.778" layer="95"/>
-<attribute name="VALUE" x="18.796" y="112.649" size="1.778" layer="96"/>
+<instance part="U$2" gate="G$2" x="2.54" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="7.62" y="104.14" size="1.27" layer="95" rot="R180"/>
 </instance>
-<instance part="3V3_PAD" gate="1" x="-38.1" y="50.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="-34.417" y="54.0258" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-36.957" y="54.102" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY3" gate="G$1" x="-17.78" y="81.28" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-20.955" y="79.375" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="BEOFRE_V" gate="1" x="-71.12" y="53.34" smashed="yes" rot="R180">
-<attribute name="NAME" x="-69.977" y="51.4858" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-69.977" y="56.642" size="1.778" layer="96" rot="R180"/>
+<instance part="R7" gate="G$1" x="5.08" y="73.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="6.35" y="72.1614" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="2.54" y="71.882" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="UPDI_PAD" gate="1" x="63.5" y="55.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.6542" y="57.023" size="1.778" layer="95"/>
-<attribute name="VALUE" x="60.198" y="57.023" size="1.778" layer="96" rot="R270"/>
+<instance part="R9" gate="G$1" x="-7.62" y="93.98" smashed="yes">
+<attribute name="NAME" x="-8.89" y="95.4786" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-8.89" y="90.678" size="1.27" layer="96"/>
 </instance>
-<instance part="WALL_EN_PAD" gate="1" x="5.08" y="86.36" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.223" y="84.5058" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="6.223" y="89.662" size="1.778" layer="96" rot="R180"/>
+<instance part="R10" gate="G$1" x="5.08" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="8.89" y="89.9414" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="2.54" y="89.662" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="BAT_EN_PAD" gate="1" x="20.32" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.4658" y="97.917" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="23.622" y="97.917" size="1.778" layer="96" rot="R90"/>
+<instance part="WALL_EN" gate="1" x="12.7" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.3858" y="87.757" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="16.002" y="87.757" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="WALL_SENSE_PAD" gate="1" x="-10.16" y="48.26" smashed="yes" rot="R270">
-<attribute name="NAME" x="-10.8458" y="57.023" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-13.462" y="49.403" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="VB_SENSE_PAD" gate="1" x="-12.7" y="33.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="-13.3858" y="39.243" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-16.002" y="34.163" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="SERIAL" gate="G$1" x="73.66" y="116.84" smashed="yes">
-<attribute name="NAME" x="67.31" y="122.555" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.31" y="111.76" size="1.778" layer="96"/>
-</instance>
-<instance part="V_OUT_PAD" gate="1" x="40.64" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.783" y="125.1458" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="41.783" y="130.302" size="1.778" layer="96" rot="R180"/>
+<instance part="GND1" gate="1" x="35.56" y="86.36" smashed="yes">
+<attribute name="VALUE" x="33.02" y="83.82" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="G"/>
-<pinref part="Q1" gate="B" pin="G2"/>
-<wire x1="-30.48" y1="83.82" x2="-38.1" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="G"/>
-<pinref part="Q1" gate="A" pin="G1"/>
-<wire x1="-30.48" y1="114.3" x2="-38.1" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="Q1" gate="B" pin="1_D2"/>
-<pinref part="Q1" gate="A" pin="1_D1"/>
-<wire x1="-48.26" y1="93.98" x2="-48.26" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="Q1" gate="B" pin="2_D2"/>
-<pinref part="Q1" gate="A" pin="2_D1"/>
-<wire x1="-50.8" y1="93.98" x2="-50.8" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GND" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="-30.48" y1="99.06" x2="-15.24" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="99.06" x2="0" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="0" y1="99.06" x2="0" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<junction x="-15.24" y="99.06"/>
-</segment>
-<segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="-30.48" y1="68.58" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="0" y1="68.58" x2="0" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<junction x="-15.24" y="68.58"/>
-</segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="-"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="111.76" x2="10.16" y2="111.76" width="0.1524" layer="91"/>
-<junction x="10.16" y="111.76"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="-43.18" y1="38.1" x2="-40.64" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="38.1" x2="-40.64" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="52.07" x2="16.51" y2="52.07" width="0.1524" layer="91"/>
+<wire x1="16.51" y1="52.07" x2="16.51" y2="54.61" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="-55.88" y1="30.48" x2="-40.64" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="30.48" x2="-40.64" y2="38.1" width="0.1524" layer="91"/>
-<junction x="-40.64" y="38.1"/>
-<wire x1="-55.88" y1="30.48" x2="-73.66" y2="30.48" width="0.1524" layer="91"/>
-<junction x="-55.88" y="30.48"/>
+<wire x1="1.27" y1="44.45" x2="16.51" y2="44.45" width="0.1524" layer="91"/>
+<wire x1="16.51" y1="44.45" x2="16.51" y2="52.07" width="0.1524" layer="91"/>
+<junction x="16.51" y="52.07"/>
+<wire x1="1.27" y1="44.45" x2="-16.51" y2="44.45" width="0.1524" layer="91"/>
+<junction x="1.27" y="44.45"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="-73.66" y1="40.64" x2="-73.66" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-16.51" y1="54.61" x2="-16.51" y2="44.45" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="17.78" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="60.96" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="83.82" x2="102.87" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="83.82" x2="118.11" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="118.11" y1="83.82" x2="118.11" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<junction x="27.94" y="60.96"/>
+<junction x="102.87" y="83.82"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-25.4" y1="40.64" x2="-27.94" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="-25.4" y1="22.86" x2="-27.94" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="27.94" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="27.94" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-<junction x="71.12" y="20.32"/>
+<wire x1="40.64" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="WALL" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="13.97" x2="62.23" y2="24.13" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BAT" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="71.12" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="24.13" x2="46.99" y2="13.97" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OUT" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="71.12" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="31.75" y1="24.13" x2="31.75" y2="13.97" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PROGRAM" gate="A" pin="3"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="71.12" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="24.13" x2="13.97" y2="13.97" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="-12.7" y1="76.2" x2="-17.78" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="-"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="88.9" x2="35.56" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="35.56" y1="88.9" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
+<junction x="35.56" y="88.9"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="58.42" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="142.24" y1="54.61" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
+<junction x="142.24" y="58.42"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
 <segment>
-<pinref part="Q1" gate="A" pin="S1"/>
-<wire x1="-48.26" y1="119.38" x2="-48.26" y2="127" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="127" x2="10.16" y2="127" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="+"/>
-<wire x1="10.16" y1="127" x2="10.16" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="127" x2="17.78" y2="127" width="0.1524" layer="91"/>
-<junction x="10.16" y="127"/>
-<pinref part="U$1" gate="G$1" pin="D"/>
-<wire x1="17.78" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="127" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
-<label x="10.16" y="127" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="30.48" y1="99.06" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="119.38" x2="17.78" y2="127" width="0.1524" layer="91"/>
-<junction x="17.78" y="127"/>
-<pinref part="V_OUT_PAD" gate="1" pin="P"/>
-<junction x="38.1" y="127"/>
+<wire x1="40.64" y1="96.52" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="+"/>
+<wire x1="30.48" y1="96.52" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
+<junction x="30.48" y="99.06"/>
+<pinref part="U$2" gate="G$1" pin="S"/>
+<wire x1="20.32" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="S"/>
+<wire x1="25.4" y1="99.06" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="81.28" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
+<junction x="25.4" y="99.06"/>
+<pinref part="V_OUT" gate="1" pin="P"/>
+<wire x1="40.64" y1="99.06" x2="49.53" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="99.06" x2="49.53" y2="95.25" width="0.1524" layer="91"/>
+<junction x="40.64" y="99.06"/>
+<wire x1="49.53" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
+<junction x="49.53" y="99.06"/>
+<label x="53.34" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="OUT" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="71.12" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
-<label x="86.36" y="71.12" size="1.778" layer="95" xref="yes"/>
+<wire x1="34.29" y1="24.13" x2="34.29" y2="8.89" width="0.1524" layer="91"/>
+<label x="34.29" y="8.89" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="WALL_EN" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="CTL"/>
-<wire x1="0" y1="114.3" x2="2.54" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="CTL"/>
-<wire x1="2.54" y1="114.3" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="86.36" x2="2.54" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
-<label x="2.54" y="93.98" size="1.778" layer="95" xref="yes"/>
-<pinref part="WALL_EN_PAD" gate="1" pin="P"/>
-<junction x="2.54" y="86.36"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="91.44" x2="12.7" y2="91.44" width="0.1524" layer="91"/>
+<label x="17.78" y="91.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="WALL_EN" gate="1" pin="P"/>
+<wire x1="12.7" y1="91.44" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
+<junction x="12.7" y="91.44"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA2"/>
-<wire x1="43.18" y1="40.64" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
-<label x="45.72" y="40.64" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U$1" gate="G$2" pin="S"/>
-<pinref part="U$1" gate="G$1" pin="S"/>
-<wire x1="38.1" y1="88.9" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U$1" gate="G$2" pin="G"/>
-<pinref part="U$1" gate="G$1" pin="G"/>
-<wire x1="33.02" y1="86.36" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="101.6" x2="33.02" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="73.66" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
-<junction x="33.02" y="86.36"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<junction x="33.02" y="101.6"/>
+<pinref part="U1" gate="G$1" pin="PA5"/>
+<wire x1="72.39" y1="63.5" x2="69.85" y2="63.5" width="0.1524" layer="91"/>
+<label x="69.85" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+7V" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="VS"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-30.48" y1="78.74" x2="-30.48" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="78.74" x2="-35.56" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="78.74" x2="-35.56" y2="109.22" width="0.1524" layer="91"/>
-<junction x="-30.48" y="78.74"/>
-<pinref part="U$2" gate="G$1" pin="VS"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="-30.48" y1="109.22" x2="-30.48" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="109.22" x2="-30.48" y2="109.22" width="0.1524" layer="91"/>
-<junction x="-30.48" y="109.22"/>
-<pinref part="Q1" gate="B" pin="S2"/>
-<wire x1="-35.56" y1="78.74" x2="-48.26" y2="78.74" width="0.1524" layer="91"/>
-<junction x="-35.56" y="78.74"/>
-<pinref part="SUPPLY2" gate="G$1" pin="+7V"/>
-<wire x1="-48.26" y1="78.74" x2="-76.2" y2="78.74" width="0.1524" layer="91"/>
-<junction x="-48.26" y="78.74"/>
-<label x="-76.2" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="-60.96" y1="68.58" x2="-55.88" y2="68.58" width="0.1524" layer="91"/>
-<label x="-55.88" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="48.26" x2="-27.94" y2="48.26" width="0.1524" layer="91"/>
-<label x="-27.94" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="71.12" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<label x="38.1" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="WALL" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
-<label x="86.36" y="101.6" size="1.778" layer="95" xref="yes"/>
+<wire x1="64.77" y1="24.13" x2="64.77" y2="8.89" width="0.1524" layer="91"/>
+<label x="64.77" y="8.89" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$2" pin="S"/>
+<pinref part="SUPPLY2" gate="G$1" pin="+7V"/>
+<wire x1="-2.54" y1="99.06" x2="-12.7" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="-12.7" y1="99.06" x2="-15.24" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="93.98" x2="-12.7" y2="99.06" width="0.1524" layer="91"/>
+<junction x="-12.7" y="99.06"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="-15.24" y1="96.52" x2="-15.24" y2="99.06" width="0.1524" layer="91"/>
+<junction x="-15.24" y="99.06"/>
 </segment>
 </net>
 <net name="+UB" class="0">
 <segment>
-<pinref part="SUPPLY1" gate="G$1" pin="+UB"/>
-<pinref part="U$1" gate="G$2" pin="D"/>
-<wire x1="48.26" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
-<label x="48.26" y="78.74" size="1.778" layer="95" xref="yes"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="73.66" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
-<junction x="43.18" y="78.74"/>
-</segment>
-<segment>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="-60.96" y1="60.96" x2="-55.88" y2="60.96" width="0.1524" layer="91"/>
-<label x="-55.88" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="30.48" x2="-27.94" y2="30.48" width="0.1524" layer="91"/>
-<label x="-27.94" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="53.34" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<label x="38.1" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="BAT" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
-<label x="86.36" y="86.36" size="1.778" layer="95" xref="yes"/>
+<wire x1="49.53" y1="24.13" x2="49.53" y2="8.89" width="0.1524" layer="91"/>
+<label x="49.53" y="8.89" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$2" pin="S"/>
+<pinref part="SUPPLY3" gate="G$1" pin="+UB"/>
+<wire x1="-2.54" y1="81.28" x2="-15.24" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="-15.24" y1="81.28" x2="-15.24" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-15.24" y="81.28"/>
 </segment>
 </net>
 <net name="+3.3V" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="U2" gate="G$1" pin="VOUT"/>
-<wire x1="-40.64" y1="48.26" x2="-43.18" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="48.26" x2="-40.64" y2="50.8" width="0.1524" layer="91"/>
-<junction x="-40.64" y="48.26"/>
-<label x="-40.64" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
+<label x="25.4" y="62.23" size="1.27" layer="95" xref="yes"/>
+<wire x1="13.97" y1="62.23" x2="16.51" y2="62.23" width="0.1524" layer="91"/>
 <pinref part="3V3_PAD" gate="1" pin="P"/>
+<wire x1="24.13" y1="58.42" x2="24.13" y2="62.23" width="0.1524" layer="91"/>
+<wire x1="16.51" y1="62.23" x2="24.13" y2="62.23" width="0.1524" layer="91"/>
+<junction x="16.51" y="62.23"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD"/>
-<wire x1="-2.54" y1="48.26" x2="-2.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="71.12" x2="72.39" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="-2.54" y1="60.96" x2="10.16" y2="60.96" width="0.1524" layer="91"/>
-<label x="-2.54" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="72.39" y1="83.82" x2="85.09" y2="83.82" width="0.1524" layer="91"/>
+<label x="72.39" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PROGRAM" gate="A" pin="1"/>
-<wire x1="71.12" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
-<label x="86.36" y="55.88" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="U2" gate="G$1" pin="VIN"/>
-<pinref part="U2" gate="G$1" pin="EN"/>
-<wire x1="-68.58" y1="43.18" x2="-68.58" y2="48.26" width="0.1524" layer="91"/>
-<junction x="-68.58" y="48.26"/>
-<wire x1="-68.58" y1="48.26" x2="-73.66" y2="48.26" width="0.1524" layer="91"/>
-<junction x="-73.66" y="48.26"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="-66.04" y1="68.58" x2="-73.66" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="68.58" x2="-73.66" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="-73.66" y1="60.96" x2="-73.66" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="53.34" x2="-73.66" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="60.96" x2="-73.66" y2="60.96" width="0.1524" layer="91"/>
-<junction x="-73.66" y="60.96"/>
-<pinref part="BEOFRE_V" gate="1" pin="P"/>
-<junction x="-73.66" y="53.34"/>
+<wire x1="19.05" y1="24.13" x2="19.05" y2="8.89" width="0.1524" layer="91"/>
+<label x="19.05" y="8.89" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="40.64" x2="-15.24" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="63.5" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PA4"/>
-<wire x1="-15.24" y1="45.72" x2="-15.24" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="45.72" x2="-10.16" y2="45.72" width="0.1524" layer="91"/>
-<junction x="-15.24" y="45.72"/>
-<pinref part="WALL_SENSE_PAD" gate="1" pin="P"/>
-<wire x1="-10.16" y1="45.72" x2="-15.24" y2="45.72" width="0.1524" layer="91"/>
-<junction x="-10.16" y="45.72"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="30.48" x2="-15.24" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PA5"/>
-<wire x1="-2.54" y1="40.64" x2="-7.62" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="40.64" x2="-7.62" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="30.48" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>
-<junction x="-15.24" y="30.48"/>
-<pinref part="VB_SENSE_PAD" gate="1" pin="P"/>
-<wire x1="-12.7" y1="30.48" x2="-15.24" y2="30.48" width="0.1524" layer="91"/>
-<junction x="-12.7" y="30.48"/>
+<wire x1="50.8" y1="68.58" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
+<junction x="50.8" y="68.58"/>
+<pinref part="WALL_SENSE" gate="1" pin="P"/>
+<wire x1="55.88" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
+<junction x="55.88" y="68.58"/>
 </segment>
 </net>
 <net name="BAT_EN" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="101.6" x2="20.32" y2="101.6" width="0.1524" layer="91"/>
-<label x="20.32" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="BAT_EN_PAD" gate="1" pin="P"/>
+<pinref part="BAT_EN" gate="1" pin="P"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="73.66" x2="10.16" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
+<junction x="12.7" y="73.66"/>
+<label x="17.78" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA1"/>
-<wire x1="43.18" y1="35.56" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
-<label x="45.72" y="35.56" size="1.778" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA7"/>
+<wire x1="72.39" y1="53.34" x2="69.85" y2="53.34" width="0.1524" layer="91"/>
+<label x="69.85" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="55.88" y1="27.94" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="66.04" x2="130.81" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="55.88" y1="20.32" x2="53.34" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<pinref part="U1" gate="G$1" pin="PB1"/>
-<wire x1="45.72" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="20.32" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB0"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="43.18" y1="25.4" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="58.42" x2="130.81" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UPDI" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA0/!RESET!/UDPI"/>
-<wire x1="43.18" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
-<label x="45.72" y="30.48" size="1.778" layer="95" xref="yes"/>
+<wire x1="118.11" y1="53.34" x2="120.65" y2="53.34" width="0.1524" layer="91"/>
+<label x="120.65" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PROGRAM" gate="A" pin="2"/>
-<wire x1="71.12" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
-<label x="63.5" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="16.51" y1="24.13" x2="16.51" y2="30.48" width="0.1524" layer="91"/>
+<label x="16.51" y="30.48" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="UPDI_PAD" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="RX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB3/OSC1"/>
-<wire x1="-2.54" y1="25.4" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
-<label x="-5.08" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="72.39" y1="48.26" x2="69.85" y2="48.26" width="0.1524" layer="91"/>
+<label x="69.85" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SERIAL" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="116.84" x2="78.74" y2="116.84" width="0.1524" layer="91"/>
-<label x="78.74" y="116.84" size="1.778" layer="95" xref="yes"/>
+<wire x1="80.01" y1="24.13" x2="80.01" y2="16.51" width="0.1524" layer="91"/>
+<label x="80.01" y="16.51" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="TX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB2/OSC2"/>
-<wire x1="-2.54" y1="22.86" x2="-5.08" y2="22.86" width="0.1524" layer="91"/>
-<label x="-5.08" y="22.86" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="72.39" y1="45.72" x2="69.85" y2="45.72" width="0.1524" layer="91"/>
+<label x="69.85" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SERIAL" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="119.38" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
-<label x="78.74" y="119.38" size="1.778" layer="95" xref="yes"/>
+<wire x1="82.55" y1="24.13" x2="82.55" y2="16.51" width="0.1524" layer="91"/>
+<label x="82.55" y="16.51" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="D"/>
+<pinref part="U$2" gate="G$2" pin="D"/>
+<wire x1="10.16" y1="99.06" x2="7.62" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="D"/>
+<pinref part="U$1" gate="G$2" pin="D"/>
+<wire x1="10.16" y1="81.28" x2="7.62" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="G"/>
+<pinref part="U$2" gate="G$2" pin="G"/>
+<wire x1="17.78" y1="93.98" x2="0" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="0" y1="91.44" x2="0" y2="93.98" width="0.1524" layer="91"/>
+<junction x="0" y="93.98"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="0" y1="93.98" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="U$1" gate="G$2" pin="G"/>
+<wire x1="0" y1="73.66" x2="0" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="0" y1="76.2" x2="-2.54" y2="76.2" width="0.1524" layer="91"/>
+<junction x="0" y="76.2"/>
+<pinref part="U$1" gate="G$1" pin="G"/>
+<wire x1="0" y1="76.2" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BEFORE_V" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="-15.24" y1="88.9" x2="-15.24" y2="90.17" width="0.1524" layer="91"/>
+<label x="-15.24" y="90.17" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="BEOFRE_V" gate="1" pin="P"/>
+<wire x1="-15.24" y1="90.17" x2="-15.24" y2="91.44" width="0.1524" layer="91"/>
+<junction x="-15.24" y="90.17"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<pinref part="U2" gate="G$1" pin="EN"/>
+<wire x1="-11.43" y1="57.15" x2="-11.43" y2="62.23" width="0.1524" layer="91"/>
+<junction x="-11.43" y="62.23"/>
+<wire x1="-11.43" y1="62.23" x2="-16.51" y2="62.23" width="0.1524" layer="91"/>
+<wire x1="-16.51" y1="62.23" x2="-16.51" y2="64.77" width="0.1524" layer="91"/>
+<junction x="-16.51" y="62.23"/>
+<label x="-16.51" y="64.77" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="VB_SENSE" gate="1" pin="P"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="45.72" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
+<junction x="50.8" y="45.72"/>
+<pinref part="U1" gate="G$1" pin="PA6"/>
+<wire x1="72.39" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="58.42" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
+<junction x="50.8" y="53.34"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="U1" gate="G$1" pin="PA1"/>
+<wire x1="123.19" y1="58.42" x2="118.11" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA2"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="118.11" y1="63.5" x2="118.11" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="118.11" y1="66.04" x2="123.19" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -23291,12 +22697,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="8.4" severity="warning">
-Since Version 8.4, EAGLE supports properties for SPICE simulation. 
-Probes in schematics and SPICE mapping objects found in parts and library devices
-will not be understood with this version. Update EAGLE to the latest version
-for full support of SPICE simulation. 
 </note>
 </compatibility>
 </eagle>
